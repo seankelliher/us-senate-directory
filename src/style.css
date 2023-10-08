@@ -1,0 +1,97 @@
+#container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+header {
+    width: 90%;
+    max-width: 800px;
+    margin: 0;
+    padding: 0 5%;
+    flex: initial;
+}
+
+/* Font styles and their media queries */
+h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #191c1e;
+}
+
+h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #191c1e;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #191c1e;
+}
+
+/* Media queries for fonts */
+@media (width >= 300px) and (width <= 399px) {
+    p {
+        font-size: 0.875em; /* 14px */
+    }
+
+    h1 {
+        font-size: 1.125em; /* 18 px */
+    }
+
+    h2 {
+        font-size: 1em; /* 16px */
+    }
+}
+
+@media (width >= 400px) and (width <= 499px) {
+    p {
+        font-size: 0.9375em; /* 15px */
+    }
+
+    h1 {
+        font-size: 1.1875em; /* 19px */
+    }
+
+    h2 {
+        font-size: 1.0625em; /* 17px */
+    }
+}
+
+@media (width >= 500px) and (width <= 599px) {
+    p {
+        font-size: 1em; /* 16px */
+    }
+
+    h1 {
+        font-size: 1.25em; /* 20px */
+    }
+
+    h2 {
+        font-size: 1.125em; /* 18 px */
+    }
+}
+
+@media (width >= 600px) {
+    p {
+        font-size: 1.0625em; /* 17px */
+    }
+
+    h1 {
+        font-size: 1.3125em; /* 21px */
+    }
+
+    h2 {
+        font-size: 1.1875em; /* 19px */
+    }
+}
