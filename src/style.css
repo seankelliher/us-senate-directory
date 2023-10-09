@@ -4,16 +4,78 @@
     margin: 0 auto;
     padding: 0;
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-flow: row wrap;
+    justify-content: flex-start; /*main axis*/
+    align-items: flex-start; /*cross axis*/
 }
 
 header {
     width: 90%;
-    max-width: 800px;
+    /*max-width: 800px;*/
     margin: 0;
     padding: 0 5%;
+    flex: initial;
+}
+
+main {
+    width: 90%;
+    margin: 0;
+    padding: 0 5%;
+    flex: initial;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+form {
+    width: 20%;
+    margin: 0%;
+    padding: 0;
+    flex: initial;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+fieldset {
+    width: 90%;
+    margin: 1em 0;
+    padding: 1em 5%;
+    flex: initial;
+    border: 1px solid #bdbdbd;
+}
+
+input {
+    margin-right: 1em;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+button {
+    padding-left: 10%;
+    padding-right: 10%;
+    background: transparent;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+section {
+    width: 75%;
+    margin: 0;
+    padding: 0;
+    flex: initial;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card {
+    width: 45%;
     flex: initial;
 }
 
@@ -39,6 +101,27 @@ p {
     color: #191c1e;
 }
 
+legend {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #191c1e;
+}
+
+label, select, input[type="text"], button {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #191c1e;
+}
+
+input::placeholder {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #bdbdbd; /* correct this */
+}
+
 /* Media queries for fonts */
 @media (width >= 300px) and (width <= 399px) {
     p {
@@ -51,6 +134,14 @@ p {
 
     h2 {
         font-size: 1em; /* 16px */
+    }
+
+    legend {
+        font-size: 0.875em; /* 14px */
+    }
+
+    label, select, input::placeholder, input[type="text"], button {
+        font-size: 0.875em; /* 14px */
     }
 }
 
@@ -66,6 +157,14 @@ p {
     h2 {
         font-size: 1.0625em; /* 17px */
     }
+
+    legend {
+        font-size: 0.9375em; /* 15px */
+    }
+
+    label, select, input::placeholder, input[type="text"], button {
+        font-size: 0.9375em; /* 15px */
+    }
 }
 
 @media (width >= 500px) and (width <= 599px) {
@@ -80,6 +179,14 @@ p {
     h2 {
         font-size: 1.125em; /* 18 px */
     }
+
+    legend {
+        font-size: 1em; /* 16px */
+    }
+
+    label, select, input::placeholder, input[type="text"], button {
+        font-size: 1em; /* 16px */
+    }
 }
 
 @media (width >= 600px) {
@@ -93,5 +200,13 @@ p {
 
     h2 {
         font-size: 1.1875em; /* 19px */
+    }
+
+    legend {
+        font-size: 1.0625em; /* 17px */
+    }
+
+    label, select, input::placeholder, input[type="text"], button {
+        font-size: 1.0625em; /* 17px */
     }
 }
