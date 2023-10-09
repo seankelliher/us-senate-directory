@@ -2,7 +2,7 @@ const senators = [
     {
         address1: "709 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2013",
+        assumedOffice: "Jan 3, 2013",
         bioguideId: "b001230",
         eliteSchool: true, // Smith
         email: "baldwin.senate.gov/feedback",
@@ -22,7 +22,7 @@ const senators = [
     {
         address1: "307 Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "June 25, 2007",
+        assumedOffice: "Jun 25, 2007",
         bioguideId: "b001261",
         eliteSchool: true, // Georgetown
         email: "barrasso.senate.gov/public/index.cfm/contact-form",
@@ -42,7 +42,7 @@ const senators = [
     {
         address1: "261 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 21, 2009",
+        assumedOffice: "Jan 21, 2009",
         bioguideId: "b001267",
         eliteSchool: true, // Yale
         email: "bennet.senate.gov/public/index.cfm/contact",
@@ -62,7 +62,7 @@ const senators = [
     {
         address1: "357 Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2019",
+        assumedOffice: "Jan 3, 2019",
         bioguideId: "b001243",
         eliteSchool: false,
         email: "blackburn.senate.gov/email-me",
@@ -82,7 +82,7 @@ const senators = [
     {
         address1: "706 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2011",
+        assumedOffice: "Jan 3, 2011",
         bioguideId: "b001277",
         eliteSchool: true, // Harvard, Yale
         email: "blumenthal.senate.gov/contact",
@@ -102,7 +102,7 @@ const senators = [
     {
         address1: "717 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "October 31, 2013",
+        assumedOffice: "Oct 31, 2013",
         bioguideId: "b001288",
         eliteSchool: true, // Stanford, Oxford, Yale
         email: "booker.senate.gov/?p=contact",
@@ -122,7 +122,7 @@ const senators = [
     {
         address1: "141 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2011",
+        assumedOffice: "Jan 3, 2011",
         bioguideId: "b001236",
         eliteSchool: false,
         email: "boozman.senate.gov/public/index.cfm/contact",
@@ -142,7 +142,7 @@ const senators = [
     {
         address1: "404 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2019",
+        assumedOffice: "Jan 3, 2019",
         bioguideId: "b001310",
         eliteSchool: true, // Harvard
         email: "braun.senate.gov/contact-mike",
@@ -162,7 +162,7 @@ const senators = [
     {
         address1: "SD-B40A Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2023",
+        assumedOffice: "Jan 3, 2023",
         bioguideId: "b001319",
         eliteSchool: false,
         email: "britt.senate.gov/share-your-opinion",
@@ -182,7 +182,7 @@ const senators = [
     {
         address1: "503 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2007",
+        assumedOffice: "Jan 3, 2007",
         bioguideId: "b000944",
         eliteSchool: true, // Yale
         email: "brown.senate.gov/contact",
@@ -202,7 +202,7 @@ const senators = [
     {
         address1: "B85 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2023",
+        assumedOffice: "Jan 3, 2023",
         bioguideId: "b001305",
         eliteSchool: false,
         email: "budd.senate.gov/share-your-opinion",
@@ -222,7 +222,7 @@ const senators = [
     {
         address1: "511 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2001",
+        assumedOffice: "Jan 3, 2001",
         bioguideId: "c000127",
         eliteSchool: false,
         email: "cantwell.senate.gov/public/index.cfm/email-maria",
@@ -242,7 +242,7 @@ const senators = [
     {
         address1: "172 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2015",
+        assumedOffice: "Jan 3, 2015",
         bioguideId: "c001047",
         eliteSchool: true, // Duke
         email: "capito.senate.gov/contact/contact-shelley",
@@ -262,7 +262,7 @@ const senators = [
     {
         address1: "509 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2007",
+        assumedOffice: "Jan 3, 2007",
         bioguideId: "c000141",
         eliteSchool: false,
         email: "cardin.senate.gov/contact",
@@ -282,7 +282,7 @@ const senators = [
     {
         address1: "513 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2001",
+        assumedOffice: "Jan 3, 2001",
         bioguideId: "c000174",
         eliteSchool: false,
         email: "carper.senate.gov/public/index.cfm/email-senator-carper",
@@ -302,7 +302,7 @@ const senators = [
     {
         address1: "393 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2007",
+        assumedOffice: "Jan 3, 2007",
         bioguideId: "c001070",
         eliteSchool: false,
         email: "casey.senate.gov/contact",
@@ -322,7 +322,7 @@ const senators = [
     {
         address1: "520 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2015",
+        assumedOffice: "Jan 3, 2015",
         bioguideId: "c001075",
         eliteSchool: false,
         email: "cassidy.senate.gov/contact",
@@ -342,7 +342,7 @@ const senators = [
     {
         address1: "413 Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 1997",
+        assumedOffice: "Jan 3, 1997",
         bioguideId: "c001035",
         eliteSchool: false,
         email: "collins.senate.gov/contact",
@@ -362,7 +362,7 @@ const senators = [
     {
         address1: "218 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "November 15, 2010",
+        assumedOffice: "Nov 15, 2010",
         bioguideId: "c001088",
         eliteSchool: true, // Amherst, Yale
         email: "coons.senate.gov/contact",
@@ -382,7 +382,7 @@ const senators = [
     {
         address1: "517 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "December 2, 2002",
+        assumedOffice: "Dec 2, 2002",
         bioguideId: "c001056",
         eliteSchool: false,
         email: "cornyn.senate.gov/contact",
@@ -402,7 +402,7 @@ const senators = [
     {
         address1: "313 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2017",
+        assumedOffice: "Jan 3, 2017",
         bioguideId: "c001113",
         eliteSchool: false,
         email: "cortezmasto.senate.gov/contact",
@@ -422,7 +422,7 @@ const senators = [
     {
         address1: "326 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2015",
+        assumedOffice: "Jan 3, 2015",
         bioguideId: "c001095",
         eliteSchool: true, // Harvard
         email: "cotton.senate.gov/contact/contact-tom",
@@ -442,7 +442,7 @@ const senators = [
     {
         address1: "330 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2019",
+        assumedOffice: "Jan 3, 2019",
         bioguideId: "c001096",
         eliteSchool: false,
         email: "cramer.senate.gov/contact/contact-kevin",
@@ -462,7 +462,7 @@ const senators = [
     {
         address1: "239 Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 1999",
+        assumedOffice: "Jan 3, 1999",
         bioguideId: "c000880",
         eliteSchool: true, // Harvard
         email: "crapo.senate.gov/contact",
@@ -482,7 +482,7 @@ const senators = [
     {
         address1: "127A Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2013",
+        assumedOffice: "Jan 3, 2013",
         bioguideId: "c001098",
         eliteSchool: true, // Princeton, Harvard
         email: "cruz.senate.gov/?p=form&id=16",
@@ -502,7 +502,7 @@ const senators = [
     {
         address1: "320 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2015",
+        assumedOffice: "Jan 3, 2015",
         bioguideId: "d000618",
         eliteSchool: false,
         email: "daines.senate.gov/connect/email-steve",
@@ -522,7 +522,7 @@ const senators = [
     {
         address1: "524 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2017",
+        assumedOffice: "Jan 3, 2017",
         bioguideId: "d000622",
         eliteSchool: false,
         email: "duckworth.senate.gov/content/contact-senator",
@@ -542,7 +542,7 @@ const senators = [
     {
         address1: "711 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 1997",
+        assumedOffice: "Jan 3, 1997",
         bioguideId: "d000563",
         eliteSchool: true, // Georgetown
         email: "durbin.senate.gov/contact",
@@ -562,7 +562,7 @@ const senators = [
     {
         address1: "730 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2015",
+        assumedOffice: "Jan 3, 2015",
         bioguideId: "e000295",
         eliteSchool: false,
         email: "ernst.senate.gov/public/index.cfm/contact",
@@ -582,7 +582,7 @@ const senators = [
     {
         address1: "331 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "November 10, 1992",
+        assumedOffice: "Nov 10, 1992",
         bioguideId: "f000062",
         eliteSchool: true, // Stanford
         email: "feinstein.senate.gov/public/index.cfm/e-mail-me",
@@ -602,7 +602,7 @@ const senators = [
     {
         address1: "B40B Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2023",
+        assumedOffice: "Jan 3, 2023",
         bioguideId: "f000479",
         eliteSchool: false,
         email: "fetterman.senate.gov/contact-2",
@@ -622,7 +622,7 @@ const senators = [
     {
         address1: "454 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2013",
+        assumedOffice: "Jan 3, 2013",
         bioguideId: "f000463",
         eliteSchool: false,
         email: "fischer.senate.gov/public/index.cfm/contact",
@@ -642,7 +642,7 @@ const senators = [
     {
         address1: "478 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 26, 2009",
+        assumedOffice: "Jan 26, 2009",
         bioguideId: "g000555",
         eliteSchool: true, // Dartmouth
         email: "gillibrand.senate.gov/contact/email-me",
@@ -662,7 +662,7 @@ const senators = [
     {
         address1: "290 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2003",
+        assumedOffice: "Jan 3, 2003",
         bioguideId: "g000359",
         eliteSchool: false,
         email: "lgraham.senate.gov/public/index.cfm/e-mail-senator-graham",
@@ -682,7 +682,7 @@ const senators = [
     {
         address1: "135 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 1981",
+        assumedOffice: "Jan 3, 1981",
         bioguideId: "g000386",
         eliteSchool: false,
         email: "grassley.senate.gov/contact",
@@ -702,7 +702,7 @@ const senators = [
     {
         address1: "248 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2021",
+        assumedOffice: "Jan 3, 2021",
         bioguideId: "h000601",
         eliteSchool: false,
         email: "hagerty.senate.gov/email-me",
@@ -722,7 +722,7 @@ const senators = [
     {
         address1: "324 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2017",
+        assumedOffice: "Jan 3, 2017",
         bioguideId: "h001076",
         eliteSchool: true, // Brown
         email: "hassan.senate.gov/content/contact-senator",
@@ -742,7 +742,7 @@ const senators = [
     {
         address1: "115 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2019",
+        assumedOffice: "Jan 3, 2019",
         bioguideId: "h001089",
         eliteSchool: true, // Stanford, Yale
         email: "hawley.senate.gov/contact-senator-hawley",
@@ -762,7 +762,7 @@ const senators = [
     {
         address1: "303 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2013",
+        assumedOffice: "Jan 3, 2013",
         bioguideId: "h001046",
         eliteSchool: false,
         email: "heinrich.senate.gov/contact",
@@ -782,7 +782,7 @@ const senators = [
     {
         address1: "374 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2021",
+        assumedOffice: "Jan 3, 2021",
         bioguideId: "h000273",
         eliteSchool: false,
         email: "hickenlooper.senate.gov/contact",
@@ -802,7 +802,7 @@ const senators = [
     {
         address1: "109 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2013",
+        assumedOffice: "Jan 3, 2013",
         bioguideId: "h001042",
         eliteSchool: true, // Georgetown
         email: "hirono.senate.gov/contact",
@@ -822,7 +822,7 @@ const senators = [
     {
         address1: "338 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2011",
+        assumedOffice: "Jan 3, 2011",
         bioguideId: "h001061",
         eliteSchool: true, // Dartmouth, Northwestern
         email: "hoeven.senate.gov/public/index.cfm/email-the-senator",
@@ -842,7 +842,7 @@ const senators = [
     {
         address1: "702 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "April 9, 2018",
+        assumedOffice: "Apr 9, 2018",
         bioguideId: "h001079",
         eliteSchool: false,
         email: "hydesmith.senate.gov/content/contact-senator",
@@ -862,7 +862,7 @@ const senators = [
     {
         address1: "328 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2011",
+        assumedOffice: "Jan 3, 2011",
         bioguideId: "j000293",
         eliteSchool: false,
         email: "ronjohnson.senate.gov/public/index.cfm/email-the-senator",
@@ -882,7 +882,7 @@ const senators = [
     {
         address1: "231 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2013",
+        assumedOffice: "Jan 3, 2013",
         bioguideId: "k000384",
         eliteSchool: true, // Harvard
         email: "kaine.senate.gov/contact",
@@ -902,7 +902,7 @@ const senators = [
     {
         address1: "516 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "December 2, 2020",
+        assumedOffice: "Dec 2, 2020",
         bioguideId: "k000377",
         eliteSchool: false,
         email: "kelly.senate.gov",
@@ -922,7 +922,7 @@ const senators = [
     {
         address1: "416 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2017",
+        assumedOffice: "Jan 3, 2017",
         bioguideId: "k000393",
         eliteSchool: false,
         email: "kennedy.senate.gov/public/email-me",
@@ -942,7 +942,7 @@ const senators = [
     {
         address1: "133 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2013",
+        assumedOffice: "Jan 3, 2013",
         bioguideId: "k000383",
         eliteSchool: true, // Dartmouth
         email: "king.senate.gov/contact",
@@ -962,7 +962,7 @@ const senators = [
     {
         address1: "425 Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2007",
+        assumedOffice: "Jan 3, 2007",
         bioguideId: "k000367",
         eliteSchool: true, // Yale, Univ of Chicago
         email: "klobuchar.senate.gov/public/index.cfm/contact",
@@ -982,7 +982,7 @@ const senators = [
     {
         address1: "316 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2015",
+        assumedOffice: "Jan 3, 2015",
         bioguideId: "l000575",
         eliteSchool: false,
         email: "lankford.senate.gov/contact/email",
@@ -1002,7 +1002,7 @@ const senators = [
     {
         address1: "361A Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2011",
+        assumedOffice: "Jan 3, 2011",
         bioguideId: "l000577",
         eliteSchool: false,
         email: "lee.senate.gov/public/index.cfm/contact",
@@ -1022,7 +1022,7 @@ const senators = [
     {
         address1: "498 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2021",
+        assumedOffice: "Jan 3, 2021",
         bioguideId: "l000570",
         eliteSchool: false,
         email: "lujan.senate.gov/contact",
@@ -1042,7 +1042,7 @@ const senators = [
     {
         address1: "124 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2021",
+        assumedOffice: "Jan 3, 2021",
         bioguideId: "l000571",
         eliteSchool: false,
         email: "lummis.senate.gov/contact/contact-form",
@@ -1062,7 +1062,7 @@ const senators = [
     {
         address1: "306 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "November 15, 2010",
+        assumedOffice: "Nov 15, 2010",
         bioguideId: "m001183",
         eliteSchool: false,
         email: "manchin.senate.gov/public/index.cfm/contact-form",
@@ -1082,7 +1082,7 @@ const senators = [
     {
         address1: "255 Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "July 16, 2013",
+        assumedOffice: "Jul 16, 2013",
         bioguideId: "m000133",
         eliteSchool: false,
         email: "markey.senate.gov/contact",
@@ -1102,7 +1102,7 @@ const senators = [
     {
         address1: "479A Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2021",
+        assumedOffice: "Jan 3, 2021",
         bioguideId: "m001198",
         eliteSchool: false,
         email: "marshall.senate.gov/contact",
@@ -1122,7 +1122,7 @@ const senators = [
     {
         address1: "317 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 1985",
+        assumedOffice: "Jan 3, 1985",
         bioguideId: "m000355",
         eliteSchool: false,
         email: "mcconnell.senate.gov/public/index.cfm?p=contact",
@@ -1142,7 +1142,7 @@ const senators = [
     {
         address1: "528 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 17, 2006",
+        assumedOffice: "Jan 17, 2006",
         bioguideId: "m000639",
         eliteSchool: false,
         email: "menendez.senate.gov/contact",
@@ -1162,7 +1162,7 @@ const senators = [
     {
         address1: "531 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2009",
+        assumedOffice: "Jan 3, 2009",
         bioguideId: "m001176",
         eliteSchool: true, // Stanford, Princeton
         email: "merkley.senate.gov/contact",
@@ -1182,7 +1182,7 @@ const senators = [
     {
         address1: "521 Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2011",
+        assumedOffice: "Jan 3, 2011",
         bioguideId: "m000934",
         eliteSchool: false,
         email: "moran.senate.gov/public/index.cfm/e-mail-jerry",
@@ -1202,7 +1202,7 @@ const senators = [
     {
         address1: "B33 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2023",
+        assumedOffice: "Jan 3, 2023",
         bioguideId: "m001190",
         eliteSchool: false,
         email: "mullin.senate.gov/share-your-opinion",
@@ -1222,7 +1222,7 @@ const senators = [
     {
         address1: "522 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "December 20, 2002",
+        assumedOffice: "Dec 20, 2002",
         bioguideId: "m001153",
         eliteSchool: true, // Georgetown
         email: "murkowski.senate.gov/public/index.cfm/contact",
@@ -1242,7 +1242,7 @@ const senators = [
     {
         address1: "136 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2013",
+        assumedOffice: "Jan 3, 2013",
         bioguideId: "m001169",
         eliteSchool: true, // Williams
         email: "murphy.senate.gov/contact",
@@ -1262,7 +1262,7 @@ const senators = [
     {
         address1: "154 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 1993",
+        assumedOffice: "Jan 3, 1993",
         bioguideId: "m001111",
         eliteSchool: false,
         email: "murray.senate.gov/write-to-patty",
@@ -1282,7 +1282,7 @@ const senators = [
     {
         address1: "455 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 20, 2021",
+        assumedOffice: "Jan 20, 2021",
         bioguideId: "o000174",
         eliteSchool: true, // Georgetown, London School of Econ
         email: "ossoff.senate.gov/contact-us",
@@ -1302,7 +1302,7 @@ const senators = [
     {
         address1: "112 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 20, 2021",
+        assumedOffice: "Jan 20, 2021",
         bioguideId: "p000145",
         eliteSchool: true, // MIT
         email: "padilla.senate.gov/contact",
@@ -1322,7 +1322,7 @@ const senators = [
     {
         address1: "167 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2011",
+        assumedOffice: "Jan 3, 2011",
         bioguideId: "p000603",
         eliteSchool: true, // Duke
         email: "paul.senate.gov/connect/email-rand",
@@ -1342,7 +1342,7 @@ const senators = [
     {
         address1: "724 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2015",
+        assumedOffice: "Jan 3, 2015",
         bioguideId: "p000595",
         eliteSchool: false,
         email: "peters.senate.gov/contact/email-gary",
@@ -1362,7 +1362,7 @@ const senators = [
     {
         address1: "728 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 1997",
+        assumedOffice: "Jan 3, 1997",
         bioguideId: "r000122",
         eliteSchool: true, // West Point, Harvard
         email: "reed.senate.gov/contact",
@@ -1382,7 +1382,7 @@ const senators = [
     {
         address1: "40D Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2023",
+        assumedOffice: "Jan 3, 2023",
         bioguideId: "r000618",
         eliteSchool: true, // University of Chicago
         email: "ricketts.senate.gov",
@@ -1402,7 +1402,7 @@ const senators = [
     {
         address1: "483 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2009",
+        assumedOffice: "Jan 3, 2009",
         bioguideId: "r000584",
         eliteSchool: false,
         email: "risch.senate.gov/public/index.cfm?p=Email",
@@ -1422,7 +1422,7 @@ const senators = [
     {
         address1: "354 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2019",
+        assumedOffice: "Jan 3, 2019",
         bioguideId: "r000615",
         eliteSchool: true, // Harvard
         email: "romney.senate.gov/contact-senator-romney",
@@ -1442,7 +1442,7 @@ const senators = [
     {
         address1: "713 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2019",
+        assumedOffice: "Jan 3, 2019",
         bioguideId: "r000608",
         eliteSchool: false,
         email: "rosen.senate.gov/contact_jacky",
@@ -1462,7 +1462,7 @@ const senators = [
     {
         address1: "716 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2015",
+        assumedOffice: "Jan 3, 2015",
         bioguideId: "r000605",
         eliteSchool: false,
         email: "rounds.senate.gov/contact/email-mike",
@@ -1482,7 +1482,7 @@ const senators = [
     {
         address1: "284 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2011",
+        assumedOffice: "Jan 3, 2011",
         bioguideId: "r000595",
         eliteSchool: false,
         email: "rubio.senate.gov/public/index.cfm/contact",
@@ -1502,7 +1502,7 @@ const senators = [
     {
         address1: "332 Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2007",
+        assumedOffice: "Jan 3, 2007",
         bioguideId: "s000033",
         eliteSchool: true, // Univ of Chicago
         email: "sanders.senate.gov/contact",
@@ -1522,7 +1522,7 @@ const senators = [
     {
         address1: "722 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "December 26, 2012",
+        assumedOffice: "Dec 26, 2012",
         bioguideId: "s001194",
         eliteSchool: false,
         email: "schatz.senate.gov/contact",
@@ -1542,7 +1542,7 @@ const senators = [
     {
         address1: "B11 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2023",
+        assumedOffice: "Jan 3, 2023",
         bioguideId: "s001227",
         eliteSchool: false,
         email: "schmitt.senate.gov/share-your-opinion",
@@ -1562,7 +1562,7 @@ const senators = [
     {
         address1: "322 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 1999",
+        assumedOffice: "Jan 3, 1999",
         bioguideId: "s000148",
         eliteSchool: true, // Harvard
         email: "schumer.senate.gov/contact/email-chuck",
@@ -1582,7 +1582,7 @@ const senators = [
     {
         address1: "502 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 8, 2019",
+        assumedOffice: "Jan 8, 2019",
         bioguideId: "s001217",
         eliteSchool: false,
         email: "rickscott.senate.gov/contact/contact",
@@ -1602,7 +1602,7 @@ const senators = [
     {
         address1: "104 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2013",
+        assumedOffice: "Jan 3, 2013",
         bioguideId: "s001184",
         eliteSchool: false,
         email: "scott.senate.gov/contact/email-me",
@@ -1622,7 +1622,7 @@ const senators = [
     {
         address1: "506 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2009",
+        assumedOffice: "Jan 3, 2009",
         bioguideId: "s001181",
         eliteSchool: false,
         email: "shaheen.senate.gov/contact/contact-jeanne",
@@ -1642,7 +1642,7 @@ const senators = [
     {
         address1: "317 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2019",
+        assumedOffice: "Jan 3, 2019",
         bioguideId: "s001191",
         eliteSchool: false,
         email: "sinema.senate.gov/contact-kyrsten",
@@ -1662,7 +1662,7 @@ const senators = [
     {
         address1: "720 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2018",
+        assumedOffice: "Jan 3, 2018",
         bioguideId: "s001203",
         eliteSchool: true, // Stanford, Dartmouth
         email: "smith.senate.gov/contact-tina",
@@ -1682,7 +1682,7 @@ const senators = [
     {
         address1: "731 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2001",
+        assumedOffice: "Jan 3, 2001",
         bioguideId: "s000770",
         eliteSchool: false,
         email: "stabenow.senate.gov/contact",
@@ -1702,7 +1702,7 @@ const senators = [
     {
         address1: "302 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2015",
+        assumedOffice: "Jan 3, 2015",
         bioguideId: "s001198",
         eliteSchool: true, // Harvard, Georgetown
         email: "sullivan.senate.gov/contact/email",
@@ -1722,7 +1722,7 @@ const senators = [
     {
         address1: "311 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2007",
+        assumedOffice: "Jan 3, 2007",
         bioguideId: "t000464",
         eliteSchool: false,
         email: "tester.senate.gov/?p=email_senator",
@@ -1742,7 +1742,7 @@ const senators = [
     {
         address1: "511 Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2005",
+        assumedOffice: "Jan 3, 2005",
         bioguideId: "t000250",
         eliteSchool: false,
         email: "thune.senate.gov/public/index.cfm/contact",
@@ -1762,7 +1762,7 @@ const senators = [
     {
         address1: "113 Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2015",
+        assumedOffice: "Jan 3, 2015",
         bioguideId: "t000476",
         eliteSchool: false,
         email: "tillis.senate.gov/public/index.cfm/email-me",
@@ -1782,7 +1782,7 @@ const senators = [
     {
         address1: "142 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2021",
+        assumedOffice: "Jan 3, 2021",
         bioguideId: "t000278",
         eliteSchool: false,
         email: "tuberville.senate.gov/contact/contact-form",
@@ -1802,7 +1802,7 @@ const senators = [
     {
         address1: "110 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2017",
+        assumedOffice: "Jan 3, 2017",
         bioguideId: "v000128",
         eliteSchool: true, // Harvard, Georgetown
         email: "vanhollen.senate.gov/contact/email",
@@ -1822,7 +1822,7 @@ const senators = [
     {
         address1: "B40C Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2023",
+        assumedOffice: "Jan 3, 2023",
         bioguideId: "v000137",
         eliteSchool: true, // Yale Law School
         email: "vance.senate.gov/share-your-opinion",
@@ -1842,7 +1842,7 @@ const senators = [
     {
         address1: "703 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2009",
+        assumedOffice: "Jan 3, 2009",
         bioguideId: "w000805",
         eliteSchool: true, // Harvard
         email: "warner.senate.gov/public/index.cfm?p=Contact",
@@ -1862,7 +1862,7 @@ const senators = [
     {
         address1: "388 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 20, 2021",
+        assumedOffice: "Jan 20, 2021",
         bioguideId: "w000790",
         eliteSchool: false,
         email: "warnock.senate.gov/contact",
@@ -1882,7 +1882,7 @@ const senators = [
     {
         address1: "309 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2013",
+        assumedOffice: "Jan 3, 2013",
         bioguideId: "w000817",
         eliteSchool: false,
         email: "warren.senate.gov/?p=email_senator",
@@ -1902,7 +1902,7 @@ const senators = [
     {
         address1: "G12 Russell Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2023",
+        assumedOffice: "Jan 3, 2023",
         bioguideId: "w000800",
         eliteSchool: true, // UC Berkeley Law School
         email: "welch.senate.gov/share-your-opinion",
@@ -1922,7 +1922,7 @@ const senators = [
     {
         address1: "530 Hart Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2007",
+        assumedOffice: "Jan 3, 2007",
         bioguideId: "w000802",
         eliteSchool: true, // Yale
         email: "whitehouse.senate.gov/contact/email-sheldon",
@@ -1942,7 +1942,7 @@ const senators = [
     {
         address1: "555 Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "December 31, 2007",
+        assumedOffice: "Dec 31, 2007",
         bioguideId: "w000437",
         eliteSchool: false,
         email: "wicker.senate.gov/public/index.cfm/contact",
@@ -1962,7 +1962,7 @@ const senators = [
     {
         address1: "221 Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "February 5, 1996",
+        assumedOffice: "Feb 5, 1996",
         bioguideId: "w000779",
         eliteSchool: true, // Stanford
         email: "wyden.senate.gov/contact",
@@ -1982,7 +1982,7 @@ const senators = [
     {
         address1: "185 Dirksen Senate Office Building",
         address2: "Washington DC 20510",
-        assumedOffice: "January 3, 2017",
+        assumedOffice: "Jan 3, 2017",
         bioguideId: "y000064",
         eliteSchool: true, // West Point, Univ of Chicago
         email: "young.senate.gov/contact",
