@@ -24,10 +24,15 @@ const commons = computed(() => {
     return selects.value.reduce((p,c) => p.filter(e => c.includes(e)));
 });
 
-// Hides the "no results" message on mounting.
+// When component mounts...
 onMounted(() => {
+    // Hides the "no results" message
     const noResults = document.getElementById("no-results");
     noResults.style.display = "none";
+
+    // Get the "submit" button, simulate click to display all Senators.
+    const btn = document.getElementById("btn-submit");
+    btn.click();
 });
 
 // Checks results after user clicks "submit". Displays "no results" if needed.
@@ -96,6 +101,15 @@ function processInputs() {
     });
     checkCommons();
 }
+
+function clearAll() {
+    searchTerm.value = "";
+    party.value = "All Parties";
+    gender.value = "All Genders";
+    reelection.value = "All Elections";
+    homeState.value = "All States";
+}
+
 </script>
 
 <!--add tabbing index to all applicable elements -->
@@ -208,9 +222,8 @@ function processInputs() {
                         <option>Wyoming</option>
                     </select>
                 </fieldset>
-                <button type="submit">Submit</button>
-
-                <!-- ADD A CLEAR ALL BUTTON TO THE FORM -->
+                <button id="btn-clear" @click="clearAll()">Clear</button>
+                <button id="btn-submit" type="submit">Submit</button>
             </form>
             <section>
                 <p id="no-results">No matching results.</p>

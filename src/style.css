@@ -60,11 +60,27 @@ input[type="text"] {
 button {
     padding-left: 10%;
     padding-right: 10%;
-    background: transparent;
-    /*border: 1px solid #72787e;*/
-    border: none;
     border-radius: 8px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#btn-submit {
     background: #006492;
+    border: none;
+    color: #fff;
+}
+
+#btn-clear {
+    margin-right: 15px;
+    background: none;
+    border: 1px solid #006492;
+    color: #006492;
 }
 
 section {
@@ -96,7 +112,6 @@ figure {
     margin-right: 5%;
     margin-left: 5%;
     flex: initial;
-    background: yellow;
 }
 
 img {
@@ -175,13 +190,6 @@ label, select, input[type="text"] {
     line-height: 1.5;
     font-weight: 400;
     color: #1a1c1e;
-}
-
-button {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-    color: #fff;
 }
 
 input::placeholder {
