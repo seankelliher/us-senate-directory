@@ -102,7 +102,7 @@ function processInputs() {
 <template>
     <div id="container">
 
-        <HeaderPart headline="A directory for the United States Senate" />
+        <HeaderPart headline="Directory for the United States Senate" />
 
         <main>
             <form @submit.prevent="processInputs()">
@@ -216,8 +216,18 @@ function processInputs() {
                 <p id="no-results">No matching results.</p>
                 <template v-for="senator in senators" :key="senator.bioguideId">
                     <div v-if="commons.includes(senator.bioguideId)" class="card">
-                        <p>{{ senator.firstName }} {{ senator.lastName }}</p>
-                        <p>{{ senator.state }} - {{ senator.party }}</p>
+                        <figure>
+                            <img
+                                :src="`./images/${senator.portrait}.jpg`"
+                                :alt="`${senator.firstName} ${senator.lastName}`"
+                            >
+                        </figure>
+                        <dl>
+                            <dt>{{ senator.firstName }} {{ senator.lastName }}</dt>
+                            <dd>{{ senator.state }} - {{ senator.party }}</dd>
+                            <dd>Since {{ senator.assumedOffice }}</dd>
+                            <dd><a :href="`https://www.${senator.website}`" target="_blank">{{ senator.website }}</a></dd>
+                        </dl>
                     </div>
                 </template>
             </section>
