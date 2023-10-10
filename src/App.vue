@@ -1,10 +1,13 @@
 <script setup>
-import HomePage from "./components/HomePage.vue";
+import HeaderPart from "./components/HeaderPart.vue";
+import FormAndResults from "./components/FormAndResults.vue";
 </script>
 
 <template>
-    <HomePage />
-
+    <div id="container">
+        <HeaderPart headline="United States Senate" />
+        <FormAndResults />
+    </div>
 </template>
 
 <style scoped>
