@@ -42,8 +42,8 @@ form {
 
 fieldset {
     width: 90%;
-    margin: 1em 0;
-    padding: 1em 5%;
+    margin: 0.5em 0;
+    padding: 0.5em 5%;
     flex: initial;
     border: 1px solid #c5c6c9;
     border-radius: 8px;
@@ -196,7 +196,7 @@ input::placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
-    color: #bdbdbd; /* correct this */
+    color: #bdbdbd;
 }
 
 /* Media queries for fonts */
