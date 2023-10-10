@@ -119,7 +119,7 @@ function clearAll() {
                 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Seal_of_the_United_States_Senate.svg" alt="seal United States Senate">
             </figure>
             <fieldset>
-                <legend>Name</legend>
+                <legend tabindex="0">Name</legend>
                 <input
                     type="text"
                     id="search-term"
@@ -130,7 +130,7 @@ function clearAll() {
             </fieldset>
 
             <fieldset>
-                <legend>Party</legend>
+                <legend tabindex="0">Party</legend>
                 <input type="radio" id="all-parties" value="All Parties" v-model="party" />
                 <label for="all-parties">All</label><br />
                 <input type="radio" id="democrat" value="Democrat" v-model="party" />
@@ -142,7 +142,7 @@ function clearAll() {
             </fieldset>
 
             <fieldset>
-                <legend>Gender</legend>
+                <legend tabindex="0">Gender</legend>
                 <input type="radio" id="all-genders" value="All Genders" v-model="gender" />
                 <label for="all-genders">All</label><br />
                 <input type="radio" id="male" value="male" v-model="gender" />
@@ -152,7 +152,7 @@ function clearAll() {
             </fieldset>
 
             <fieldset>
-                <legend>Up for re-election</legend>
+                <legend tabindex="0">Up for re-election</legend>
                 <input type="radio" id="all-elections" value="All Elections" v-model="reelection" />
                 <label for="all-elections">All</label><br />
                 <input type="radio" id="class1" value="class1" v-model="reelection" />
@@ -164,7 +164,7 @@ function clearAll() {
             </fieldset>
 
             <fieldset>
-                <legend>State</legend>
+                <legend tabindex="0">State</legend>
                 <select v-model="homeState">
                     <!--<option disabled value="">Please select one</option>-->
                     <option>All States</option>
