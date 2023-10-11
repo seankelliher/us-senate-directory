@@ -18,6 +18,18 @@ header {
     flex: initial;
 }
 
+@media (width >= 300px) and (width <= 699px) {
+    header {
+        text-align: center;
+    }
+}
+
+@media (width >= 700px) {
+    header {
+        text-align: left;
+    }
+}
+
 main {
     width: 90%;
     margin: 0;
@@ -37,6 +49,53 @@ form {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
+    align-items: flex-start;
+}
+
+@media (width >= 300px) and (width <= 699px) {
+    form {
+        width: 100%;
+    }
+}
+
+@media (width >= 700px) and (width <= 799px) {
+    form {
+        width: 45%;
+    }
+}
+
+@media (width >= 800px) and (width <= 899px) {
+    form {
+        width: 35%;
+    }
+}
+
+@media (width >= 900px) and (width <= 999px) {
+    form {
+        width: 30%;
+    }
+}
+
+@media (width >= 1000px) and (width <= 1099px) {
+    form {
+        width: 35%;
+    }
+}
+
+@media (width >= 1100px) {
+    form {
+        width: 25%;
+    }
+}
+
+.seal-box {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    flex: initial;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     align-items: flex-start;
 }
 
@@ -103,6 +162,55 @@ section {
     align-items: flex-start;
 }
 
+@media (width >= 300px) and (width <= 499px) {
+    section {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (width >= 500px) and (width <= 699px) {
+    section {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media (width >= 700px) and (width <= 799px) {
+    section {
+        width: 45%;
+        justify-content: flex-end;
+    }
+}
+
+@media (width >= 800px) and (width <= 899px) {
+    section {
+        width: 60%;
+        justify-content: space-between;
+    }
+}
+
+@media (width >= 900px) and (width <= 999px) {
+    section {
+        width: 65%;
+        justify-content: space-between;
+    }
+}
+
+@media (width >= 1000px) and (width <= 1099px) {
+    section {
+        width: 60%;
+        justify-content: space-between;
+    }
+}
+
+@media (width >= 1100px) {
+    section {
+        width: 70%;
+        justify-content: space-between;
+    }
+}
+
 .card {
     width: 31%;
     margin-top: 1em;
@@ -114,6 +222,60 @@ section {
     justify-content: center;
     align-items: flex-start;
     background: #f0f0f3;
+}
+
+@media (width >= 300px) and (width <= 399px) {
+    .card {
+        width: 75%;
+    }
+}
+
+@media (width >= 400px) and (width <= 499px) {
+    .card {
+        width: 60%;
+    }
+}
+
+@media (width >= 500px) and (width <= 599px) {
+    .card {
+        width: 48%;
+    }
+}
+
+@media (width >= 600px) and (width <= 699px) {
+    .card {
+        width: 46%;
+    }
+}
+
+@media (width >= 700px) and (width <= 799px) {
+    .card {
+        width: 85%;
+    }
+}
+
+@media (width >= 800px) and (width <= 899px) {
+    .card {
+        width: 48%;
+    }
+}
+
+@media (width >= 900px) and (width <= 999px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media (width >= 1000px) and (width <= 1099px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media (width >= 1100px) {
+    .card {
+        width: 31%;
+    }
 }
 
 figure {
