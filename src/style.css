@@ -49,6 +49,15 @@ fieldset {
     border-radius: 8px;
 }
 
+.btn-box {
+    border: none;
+    flex: initial;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
 input {
     margin-right: 1em;
 }

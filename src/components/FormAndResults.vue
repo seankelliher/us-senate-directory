@@ -220,8 +220,11 @@ function clearAll() {
                     <option>Wyoming</option>
                 </select>
             </fieldset>
-            <button id="btn-clear" @click="clearAll()">Clear</button>
-            <button id="btn-submit" type="submit">Submit</button>
+
+            <fieldset class="btn-box">
+                <button id="btn-clear" @click="clearAll()">Clear</button>
+                <button id="btn-submit" type="submit">Submit</button>   
+            </fieldset>
         </form>
         <section>
             <p id="no-results">No matching results.</p>
