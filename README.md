@@ -15,7 +15,7 @@ This project is being developed. Next steps, accessibility and browser testing.
 * Female Democrats up for re-election in 2024, desktop.
 ![screen shot of project](/screenshots/us-senate-directory-screenshot2.png?s=600)
 
-* Alabama Senators on tablet-sized screen.
+* Alabama Senators, tablet-sized screen.
 ![screen shot of project](/screenshots/us-senate-directory-screenshot3.png?s=600)
 
 ## Installation and Setup Instructions
@@ -36,9 +36,9 @@ Visit the localhost port displayed in the terminal after running `npm run dev`.
 
 ## Reflection
 
-My goal was to build a directory so users could easily view members of the US Senate. I included filters so users could sort by state, gender, party, or when Senators are up for re-election. I also included a search feature so users could search for a Senator by first, last, or full name. Since some Senators have less formal and more formal names, I also built the search to try to accommodate these variables. For example, people can search for Bob or Robert Casey; Dick or Richard Durbin. 
+My goal was to build a directory so users can easily view members of the US Senate. I included filters so users can narrow their view by state, gender, party, or when Senators are up for re-election. I also included a search feature so users can search for a Senator by first, last, or full name. Since some Senators have less formal and more formal names, I also built the search to try to accommodate these variables. For example, people can search for Bob or Robert Casey; Dick or Richard Durbin. 
 
-A big challenge was ensuring the filters worked without errors. The other was accommodating smaller viewports, especially mobile phones, where there was a lot of information to display and not much space.
+A big challenge was ensuring the filters work without error. The other was accommodating smaller viewports, especially mobile phones, where there is a lot of information to display and not much space.
 
 ## Acknowledgments
 
