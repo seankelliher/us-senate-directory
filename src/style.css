@@ -5,14 +5,12 @@
     padding: 0;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start; /*main axis*/
-    align-items: flex-start; /*cross axis*/
-    /*background: #fcfcff;*/
+    justify-content: flex-start; /* main axis */
+    align-items: flex-start; /* cross axis */
 }
 
 header {
     width: 90%;
-    /*max-width: 800px;*/
     margin: 0;
     padding: 0 5%;
     flex: initial;
@@ -300,13 +298,6 @@ h1 {
     color: #1a1c1e;
 }
 
-h2 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 500;
-    color: #1a1c1e;
-}
-
 p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
@@ -340,7 +331,6 @@ dd {
 }
 
 dd a {
-    color: #006783;
     color: #006492;
     text-decoration: none;
 }
@@ -384,10 +374,6 @@ input::placeholder {
         font-size: 1.125em; /* 18 px */
     }
 
-    h2 {
-        font-size: 1em; /* 16px */
-    }
-
     legend {
         font-size: 0.875em; /* 14px */
     }
@@ -408,10 +394,6 @@ input::placeholder {
 
     h1 {
         font-size: 1.1875em; /* 19px */
-    }
-
-    h2 {
-        font-size: 1.0625em; /* 17px */
     }
 
     legend {
@@ -436,10 +418,6 @@ input::placeholder {
         font-size: 1.25em; /* 20px */
     }
 
-    h2 {
-        font-size: 1.125em; /* 18 px */
-    }
-
     legend {
         font-size: 1em; /* 16px */
     }
@@ -460,10 +438,6 @@ input::placeholder {
 
     h1 {
         font-size: 1.3125em; /* 21px */
-    }
-
-    h2 {
-        font-size: 1.1875em; /* 19px */
     }
 
     legend {
