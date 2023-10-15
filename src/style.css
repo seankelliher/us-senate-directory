@@ -16,13 +16,13 @@ header {
     flex: initial;
 }
 
-@media (width >= 300px) and (width <= 699px) {
+@media (min-width: 300px) and (max-width: 699px) {
     header {
         text-align: center;
     }
 }
 
-@media (width >= 700px) {
+@media (min-width: 700px) {
     header {
         text-align: left;
     }
@@ -50,37 +50,37 @@ form {
     align-items: flex-start;
 }
 
-@media (width >= 300px) and (width <= 699px) {
+@media (min-width: 300px) and (max-width: 699px) {
     form {
         width: 100%;
     }
 }
 
-@media (width >= 700px) and (width <= 799px) {
+@media (min-width: 700px) and (max-width: 799px) {
     form {
         width: 45%;
     }
 }
 
-@media (width >= 800px) and (width <= 899px) {
+@media (min-width: 800px) and (max-width: 899px) {
     form {
         width: 35%;
     }
 }
 
-@media (width >= 900px) and (width <= 999px) {
+@media (min-width: 900px) and (max-width: 999px) {
     form {
         width: 30%;
     }
 }
 
-@media (width >= 1000px) and (width <= 1099px) {
+@media (min-width: 1000px) and (max-width: 1099px) {
     form {
         width: 35%;
     }
 }
 
-@media (width >= 1100px) {
+@media (min-width: 1100px) {
     form {
         width: 25%;
     }
@@ -160,49 +160,49 @@ section {
     align-items: flex-start;
 }
 
-@media (width >= 300px) and (width <= 499px) {
+@media (min-width: 300px) and (max-width: 499px) {
     section {
         width: 100%;
         justify-content: center;
     }
 }
 
-@media (width >= 500px) and (width <= 699px) {
+@media (min-width: 500px) and (max-width: 699px) {
     section {
         width: 100%;
         justify-content: space-between;
     }
 }
 
-@media (width >= 700px) and (width <= 799px) {
+@media (min-width: 700px) and (max-width: 799px) {
     section {
         width: 45%;
         justify-content: flex-end;
     }
 }
 
-@media (width >= 800px) and (width <= 899px) {
+@media (min-width: 800px) and (max-width: 899px) {
     section {
         width: 60%;
         justify-content: space-between;
     }
 }
 
-@media (width >= 900px) and (width <= 999px) {
+@media (min-width: 900px) and (max-width: 999px) {
     section {
         width: 65%;
         justify-content: space-between;
     }
 }
 
-@media (width >= 1000px) and (width <= 1099px) {
+@media (min-width: 1000px) and (max-width: 1099px) {
     section {
         width: 60%;
         justify-content: space-between;
     }
 }
 
-@media (width >= 1100px) {
+@media (min-width: 1100px) {
     section {
         width: 70%;
         justify-content: space-between;
@@ -222,55 +222,55 @@ section {
     background: #f0f0f3;
 }
 
-@media (width >= 300px) and (width <= 399px) {
+@media (min-width: 300px) and (max-width: 399px) {
     .card {
         width: 75%;
     }
 }
 
-@media (width >= 400px) and (width <= 499px) {
+@media (min-width: 400px) and (max-width: 499px) {
     .card {
         width: 60%;
     }
 }
 
-@media (width >= 500px) and (width <= 599px) {
+@media (min-width: 500px) and (max-width: 599px) {
     .card {
         width: 48%;
     }
 }
 
-@media (width >= 600px) and (width <= 699px) {
+@media (min-width: 600px) and (max-width: 699px) {
     .card {
         width: 46%;
     }
 }
 
-@media (width >= 700px) and (width <= 799px) {
+@media (min-width: 700px) and (max-width: 799px) {
     .card {
         width: 85%;
     }
 }
 
-@media (width >= 800px) and (width <= 899px) {
+@media (min-width: 800px) and (max-width: 899px) {
     .card {
         width: 48%;
     }
 }
 
-@media (width >= 900px) and (width <= 999px) {
+@media (min-width: 900px) and (max-width: 999px) {
     .card {
         width: 45%;
     }
 }
 
-@media (width >= 1000px) and (width <= 1099px) {
+@media (min-width: 1000px) and (max-width: 1099px) {
     .card {
         width: 45%;
     }
 }
 
-@media (width >= 1100px) {
+@media (min-width: 1100px) {
     .card {
         width: 31%;
     }
@@ -361,7 +361,7 @@ input::placeholder {
 }
 
 /* Media queries for fonts */
-@media (width >= 300px) and (width <= 399px) {
+@media (min-width: 300px) and (max-width: 399px) {
     p {
         font-size: 0.875em; /* 14px */
     }
@@ -383,7 +383,7 @@ input::placeholder {
     }
 }
 
-@media (width >= 400px) and (width <= 499px) {
+@media (min-width: 400px) and (max-width: 499px) {
     p {
         font-size: 0.9375em; /* 15px */
     }
@@ -405,7 +405,7 @@ input::placeholder {
     }
 }
 
-@media (width >= 500px) and (width <= 599px) {
+@media (min-width: 500px) and (max-width: 599px) {
     p {
         font-size: 1em; /* 16px */
     }
@@ -427,7 +427,7 @@ input::placeholder {
     }
 }
 
-@media (width >= 600px) {
+@media (min-width: 600px) {
     p {
         font-size: 1.0625em; /* 17px */
     }
