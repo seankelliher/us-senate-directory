@@ -5,7 +5,7 @@ Directory of United States Senators built with Vue.js. [View working component](
 
 ## Project Status
 
-This project is being developed. Next steps, accessibility and browser testing.
+Next steps, I want to do more extensive accessibility and browser testing.
 
 ## Project Screen Shots
 
