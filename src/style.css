@@ -1,3 +1,4 @@
+/* Stylesheet uses Level 3 Media Queries. Level 4 coverage still spotty. */
 #container {
     width: 100%;
     max-width: 1280px;
@@ -40,7 +41,6 @@ main {
 }
 
 form {
-    width: 20%;
     margin: 0%;
     padding: 0;
     flex: initial;
@@ -150,13 +150,11 @@ button:hover {
 }
 
 section {
-    width: 75%;
     margin: 0;
     padding: 0;
     flex: initial;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
     align-items: flex-start;
 }
 
@@ -207,10 +205,14 @@ section {
         width: 70%;
         justify-content: space-between;
     }
+
+    section::after {
+        content: "";
+        width: 31%;
+    }
 }
 
 .card {
-    width: 31%;
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 8px;
