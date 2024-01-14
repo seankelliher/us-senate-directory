@@ -220,6 +220,26 @@ const senators = [
         fullNames: ["ted budd"]
     },
     {
+        address1: "Dirksen Senate Office Building, Room G-12",
+        address2: "Washington DC 20510",
+        assumedOffice: "Oct 3, 2023",
+        bioguideId: "b001320",
+        eliteSchool: false,
+        email: "https://www.butler.senate.gov/share-your-opinion",
+        firstName: "Laphonza R.",
+        lastName: "Butler",
+        gender: "female",
+        leadershipPosition: null,
+        leadershipType: null,
+        party: "Democrat",
+        phone: "(202) 224-3841",
+        portrait: "ca-laphonza-butler",
+        senateClass: "class1", // reelection Nov 2024.
+        state: "California",
+        website: "butler.senate.gov",
+        fullNames: ["laphonza butler"]
+    },
+    {
         address1: "511 Hart Senate Office Building",
         address2: "Washington DC 20510",
         assumedOffice: "Jan 3, 2001",
@@ -578,26 +598,6 @@ const senators = [
         state: "Iowa",
         website: "ernst.senate.gov",
         fullNames: ["joni ernst"]
-    },
-    {
-        address1: "331 Hart Senate Office Building",
-        address2: "Washington DC 20510",
-        assumedOffice: "Nov 10, 1992",
-        bioguideId: "f000062",
-        eliteSchool: true, // Stanford
-        email: "feinstein.senate.gov/public/index.cfm/e-mail-me",
-        firstName: "Dianne",
-        lastName: "Feinstein",
-        gender: "female",
-        leadershipPosition: null,
-        leadershipType: null,
-        party: "Democrat",
-        phone: "(202) 224-3841",
-        portrait: "ca-dianne-feinstein",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "California",
-        website: "feinstein.senate.gov",
-        fullNames: ["dianne feinstein"]
     },
     {
         address1: "B40B Dirksen Senate Office Building",
