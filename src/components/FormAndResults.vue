@@ -116,7 +116,7 @@ function clearAll() {
     <main>
         <form @submit.prevent="processInputs()">
             <figure class="seal-box">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Seal_of_the_United_States_Senate.svg" alt="seal United States Senate">
+                <img src="/images/us-senate-logo.svg" alt="seal United States Senate">
             </figure>
 
             <fieldset>
