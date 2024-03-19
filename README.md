@@ -5,7 +5,7 @@ Directory of United States Senators built with Vue.js. [View working component](
 
 ## Project Status
 
-Next steps, I want to do more extensive accessibility and browser testing.
+TESTING & ACCESSIBILITY: Testing and adding code to meet WACG requirements.
 
 ## Project Screen Shots
 
@@ -47,6 +47,6 @@ A big challenge was ensuring the filters work without error. The other was accom
 * US Senate seal from [Wikipedia](https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Senate.svg).
 * Readme guidance from [Brenna Martenson](https://gist.github.com/martensonbj/6bf2ec2ed55f5be723415ea73c4557c4).
 * Helpful information on filtering from [Stackoverflow users](https://stackoverflow.com/questions/11076067/finding-matches-between-multiple-javascript-arrays).
-* Design guidance from Google's [Material Design](https://material.io/design) and [Adobe Color](https://color.adobe.com/trends).
-* Accessibility guidance from [Chrome's](https://www.google.com/chrome/) Lighthouse and [Firefox's](https://www.mozilla.org/en-US/firefox/new/) Accessibility Tools.
+* Design guidance from Google's [Material Design](https://material.io/design).
+* WACG guidance from [Firefox's Developer Tools](https://firefox-source-docs.mozilla.org/devtools-user/#).
 * Shields from [Shields](https://shields.io).
