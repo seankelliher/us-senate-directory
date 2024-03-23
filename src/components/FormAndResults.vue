@@ -111,27 +111,26 @@ function clearAll() {
 
 </script>
 
-<!--add tabbing index to all applicable elements -->
 <template>
     <main>
         <form @submit.prevent="processInputs()">
             <figure class="seal-box">
-                <img src="/images/us-senate-logo.svg" alt="seal United States Senate">
+                <img src="/images/us-senate-logo.svg" alt="decorative seal for the United States Senate">
+                <figcaption hidden>seal, United States Senate</figcaption>
             </figure>
 
-            <fieldset>
-                <legend tabindex="0">Name</legend>
+            <div class="search-box">
+                <label for="search-term">Name</label>
                 <input
                     type="text"
                     id="search-term"
-                    :tabindex="0"
                     v-model="searchTerm"
                     placeholder="eg, Susan Collins"
                 />
-            </fieldset>
+            </div>
 
             <fieldset>
-                <legend tabindex="0">Party</legend>
+                <legend>Party</legend>
                 <input type="radio" id="all-parties" value="All Parties" v-model="party" />
                 <label for="all-parties">All</label><br />
                 <input type="radio" id="democrat" value="Democrat" v-model="party" />
@@ -143,7 +142,7 @@ function clearAll() {
             </fieldset>
 
             <fieldset>
-                <legend tabindex="0">Gender</legend>
+                <legend>Gender</legend>
                 <input type="radio" id="all-genders" value="All Genders" v-model="gender" />
                 <label for="all-genders">All</label><br />
                 <input type="radio" id="male" value="male" v-model="gender" />
@@ -153,7 +152,7 @@ function clearAll() {
             </fieldset>
 
             <fieldset>
-                <legend tabindex="0">Up for re-election</legend>
+                <legend>Up for re-election</legend>
                 <input type="radio" id="all-elections" value="All Elections" v-model="reelection" />
                 <label for="all-elections">All</label><br />
                 <input type="radio" id="class1" value="class1" v-model="reelection" />
@@ -164,9 +163,9 @@ function clearAll() {
                 <label for="class3">November 2028</label>
             </fieldset>
 
-            <fieldset>
-                <legend tabindex="0">State</legend>
-                <select v-model="homeState">
+            <div class="states-box">
+                <label for="states-list">State</label>
+                <select id="states-list" v-model="homeState">
                     <!--<option disabled value="">Please select one</option>-->
                     <option>All States</option>
                     <option>Alabama</option>
@@ -220,12 +219,12 @@ function clearAll() {
                     <option>Wisconsin</option>
                     <option>Wyoming</option>
                 </select>
-            </fieldset>
+            </div>
 
-            <fieldset class="btn-box">
+            <div class="btn-box">
                 <button id="btn-clear" @click="clearAll()">Clear</button>
                 <button id="btn-submit" type="submit">Submit</button>   
-            </fieldset>
+            </div>
         </form>
         <section>
             <p id="no-results">No matching results.</p>
@@ -234,8 +233,9 @@ function clearAll() {
                     <figure>
                         <img
                             :src="`./images/${senator.portrait}.jpg`"
-                            :alt="`${senator.firstName} ${senator.lastName}`"
+                            :alt="`portrait of Senator ${senator.firstName} ${senator.lastName}`"
                         >
+                        <figcaption hidden>{{ senator.firstName }} {{ senator.lastName }}</figcaption>
                     </figure>
                     <dl>
                         <dt>{{ senator.firstName }} {{ senator.lastName }}</dt>
