@@ -5,7 +5,7 @@ Directory of United States Senators built with Vue.js. [View working component](
 
 ## Project Status
 
-TESTING & ACCESSIBILITY: Testing and adding code to meet WACG requirements.
+Next steps, I want to do more extensive accessibility and browser testing.
 
 ## Project Screen Shots
 
