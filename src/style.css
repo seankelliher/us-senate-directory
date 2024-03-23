@@ -153,6 +153,13 @@ form {
     }
 }
 
+.search-box, .states-box {
+    width: 90%;
+    margin: 0.5em 0;
+    padding: 0.5em 5%;
+    flex: initial;
+}
+
 fieldset {
     width: 90%;
     margin: 0.5em 0;
@@ -163,7 +170,9 @@ fieldset {
 }
 
 .btn-box {
-    border: none;
+    width: 90%;
+    margin: 0.5em 0;
+    padding: 0.5em 5%;
     flex: initial;
     display: flex;
     flex-flow: row wrap;
@@ -177,6 +186,11 @@ input {
 
 input[type="text"] {
     width: 100%;
+}
+
+select {
+    width: 70%;
+    margin-right: 30%;
 }
 
 button {
@@ -415,7 +429,7 @@ input::placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
-    color: #bdbdbd;
+    color: #50525a;
 }
 
 /* Media queries for fonts */
@@ -432,11 +446,7 @@ input::placeholder {
         font-size: 0.9375em; /* 15px */
     }
 
-    legend {
-        font-size: 0.875em; /* 14px */
-    }
-
-    label, select, input::placeholder, input[type="text"], button {
+    legend, label, select, input::placeholder, input[type="text"], button {
         font-size: 0.875em; /* 14px */
     }
 }
@@ -454,11 +464,7 @@ input::placeholder {
         font-size: 1em; /* 16px */
     }
 
-    legend {
-        font-size: 0.9375em; /* 15px */
-    }
-
-    label, select, input::placeholder, input[type="text"], button {
+    legend, label, select, input::placeholder, input[type="text"], button {
         font-size: 0.9375em; /* 15px */
     }
 }
@@ -476,11 +482,7 @@ input::placeholder {
         font-size: 1.0625em; /* 17px */
     }
 
-    legend {
-        font-size: 1em; /* 16px */
-    }
-
-    label, select, input::placeholder, input[type="text"], button {
+    legend, label, select, input::placeholder, input[type="text"], button {
         font-size: 1em; /* 16px */
     }
 }
@@ -498,11 +500,7 @@ input::placeholder {
         font-size: 1.125em; /* 18 px */
     }
 
-    legend {
-        font-size: 1.0625em; /* 17px */
-    }
-
-    label, select, input::placeholder, input[type="text"], button {
+    legend, label, select, input::placeholder, input[type="text"], button {
         font-size: 1.0625em; /* 17px */
     }
 }
