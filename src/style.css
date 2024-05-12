@@ -30,21 +30,11 @@ header::before {
     position: absolute;
     top: 0;
     bottom: -4px;
-    width: 2000px;
-    left: 100%;
+    right: calc((100vw - 100%) / -2);
+    left: calc((100vw - 100%) / -2);
     background: #12448f;
     border-bottom: 4px solid #ffe174;
-}
-
-header::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: -4px;
-    width: 2000px;
-    right: 100%;
-    background: #12448f;
-    border-bottom: 4px solid #ffe174;
+    z-index: -1;
 }
 
 @media (min-width: 300px) and (max-width: 699px) {
