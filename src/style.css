@@ -156,7 +156,6 @@ fieldset {
     padding: 0.5em 5%;
     flex: initial;
     border: 1px solid #e1e2ec;
-    border-radius: 8px;
 }
 
 .btn-box {
@@ -176,6 +175,7 @@ input {
 
 input[type="text"] {
     width: 100%;
+    border: 1px solid #e1e2ec;
 }
 
 select {
@@ -190,6 +190,7 @@ button {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
+    box-shadow: 2px 2px 4px 1px #e1e2ec;
 }
 
 button:hover {
@@ -280,8 +281,7 @@ section {
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
-    border: 1px solid #e1e2ec;
-    border-radius: 8px;
+    box-shadow: 2px 2px 4px 1px #e1e2ec;
 }
 
 @media (min-width: 300px) and (max-width: 399px) {
