@@ -1,7 +1,7 @@
 /* Stylesheet uses Level 3 Media Queries. Level 4 coverage still spotty. */
 body {
     margin-top: 0;
-    background: #fffbff;
+    background: #f8f9ff;
 }
 
 #container {
@@ -17,23 +17,18 @@ body {
 
 header {
     width: 90%;
-    margin: 0 0 1em; /* longhand 0 0 1em 0 */
+    margin-bottom: 1em;
     padding: 0 5%;
-    background: #12448f;
-    border-bottom: 4px solid #ffe174;
     flex: initial;
     position: relative;
 }
 
-header::before {
+/* inset is shorthand property for top, right, bottom, left */
+ header::before {
     content: "";
     position: absolute;
-    top: 0;
-    bottom: -4px;
-    right: calc((100vw - 100%) / -2);
-    left: calc((100vw - 100%) / -2);
-    background: #12448f;
-    border-bottom: 4px solid #ffe174;
+    inset: 0 calc((100vw - 100%) / -2) -1px calc((100vw - 100%) / -2);
+    border-bottom: 1px solid #e1e2e9;
     z-index: -1;
 }
 
@@ -61,8 +56,10 @@ main {
 }
 
 form {
-    margin: 0%;
-    padding: 0;
+    margin: 0;
+    padding: 1em 0 0.5em; /* Longhand 1em 0 0.5em 0 */
+    border: 1px solid #e1e2e9;
+    border-radius: 8px;
     flex: initial;
     display: flex;
     flex-flow: row wrap;
@@ -146,7 +143,8 @@ form {
 .search-box, .states-box {
     width: 90%;
     margin: 0.5em 0;
-    padding: 0.5em 5%;
+    padding: 0 5% 1em; /* Longhand 0 5% 1em 5%; */
+    border-bottom: 1px solid #e1e2e9;
     flex: initial;
 }
 
@@ -155,7 +153,10 @@ fieldset {
     margin: 0.5em 0;
     padding: 0.5em 5%;
     flex: initial;
-    border: 1px solid #e1e2ec;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #e1e2e9;
+    border-left: none;
 }
 
 .btn-box {
@@ -175,11 +176,13 @@ input {
 
 input[type="text"] {
     width: 100%;
-    border: 1px solid #e1e2ec;
+    margin-top: 0.5em;
+    border: 1px solid #e1e2e9;
 }
 
 select {
     width: 70%;
+    margin-top: 0.5em;
     margin-right: 30%;
 }
 
@@ -190,7 +193,7 @@ button {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
-    box-shadow: 2px 2px 4px 1px #e1e2ec;
+    box-shadow: 2px 2px 4px 1px #e7e8ee;
 }
 
 button:hover {
@@ -198,16 +201,16 @@ button:hover {
 }
 
 #btn-submit {
-    background: #325ca8;
-    border: none;
-    color: #fff;
+    background: #d4e3ff;
+    border: 1px solid #e1e2e9;
+    color: #001c39;
 }
 
 #btn-clear {
     margin-right: 15px;
     background: none;
-    border: 1px solid #325ca8;
-    color: #325ca8;
+    border: 1px solid #c3c6cf;
+    color: #43474e;
 }
 
 section {
@@ -274,14 +277,14 @@ section {
 }
 
 .card {
-    margin-top: 1em;
     margin-bottom: 1em;
+    border-radius: 8px;
     flex: initial;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
-    box-shadow: 2px 2px 4px 1px #e1e2ec;
+    box-shadow: 2px 2px 4px 1px #e7e8ee;
 }
 
 @media (min-width: 300px) and (max-width: 399px) {
@@ -352,19 +355,19 @@ img {
     display: block;
 }
 
-/* Font styles and their media queries */
+/* Font styles */
 h1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
-    font-weight: 600;
-    color: #fff;
+    font-weight: 500;
+    color: #191c20;
 }
 
 p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
-    color: #44474f;
+    color: #191c20;
 }
 
 #no-results {
@@ -380,14 +383,14 @@ dt {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 500;
-    color: #44474f;
+    color: #191c20;
 }
 
 dd {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
-    color: #44474f;
+    color: #191c20;
     margin: 0;
     padding: 0;
 }
@@ -404,26 +407,38 @@ dd a:hover {
 legend {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
-    font-weight: 400;
-    color: #44474f;
+    font-weight: 600;
+    color: #191c20;
 }
 
 label, select, input[type="text"] {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
-    color: #44474f;
+    color: #191c20;
+}
+
+label[for="search-term"] {
+    font-weight: 500;
+}
+
+label[for="states-list"] {
+    font-weight: 500;
 }
 
 input::placeholder {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
-    color: #50525a;
+    color: #73777f;
 }
 
 /* Media queries for fonts */
 @media (min-width: 300px) and (max-width: 399px) {
+    h1 {
+        font-size: 0.8125em; /* 13px */
+    }
+
     p {
         font-size: 0.875em; /* 14px */
     }
@@ -432,26 +447,22 @@ input::placeholder {
         font-size: 0.8125em; /* 13px */
     }
 
-    h1 {
-        font-size: 0.9375em; /* 15px */
-    }
-
     legend, label, select, input::placeholder, input[type="text"], button {
         font-size: 0.875em; /* 14px */
     }
 }
 
 @media (min-width: 400px) and (max-width: 499px) {
+    h1 {
+        font-size: 0.875em; /* 14px */
+    }
+
     p {
         font-size: 0.9375em; /* 15px */
     }
 
     dt, dd {
         font-size: 0.875em; /* 14px */
-    }
-
-    h1 {
-        font-size: 1em; /* 16px */
     }
 
     legend, label, select, input::placeholder, input[type="text"], button {
@@ -460,6 +471,10 @@ input::placeholder {
 }
 
 @media (min-width: 500px) and (max-width: 599px) {
+    h1 {
+        font-size: 0.9375em; /* 15px */
+    }
+
     p {
         font-size: 1em; /* 16px */
     }
@@ -468,26 +483,22 @@ input::placeholder {
         font-size: 0.9375em; /* 15px */
     }
 
-    h1 {
-        font-size: 1.0625em; /* 17px */
-    }
-
     legend, label, select, input::placeholder, input[type="text"], button {
         font-size: 1em; /* 16px */
     }
 }
 
 @media (min-width: 600px) {
+    h1 {
+        font-size: 1em; /* 16 px */
+    }
+
     p {
         font-size: 1.0625em; /* 17px */
     }
 
     dt, dd {
         font-size: 1em; /* 16px */
-    }
-
-    h1 {
-        font-size: 1.125em; /* 18 px */
     }
 
     legend, label, select, input::placeholder, input[type="text"], button {
