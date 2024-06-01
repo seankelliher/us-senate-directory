@@ -5,7 +5,7 @@ import FormAndResults from "./components/FormAndResults.vue";
 
 <template>
     <div id="container">
-        <HeaderPart headline="United States Senate" />
+        <HeaderPart headline="United States Senate Directory" />
         <FormAndResults />
     </div>
 </template>
