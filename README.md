@@ -1,7 +1,7 @@
 [![MIT License on GitHub](https://img.shields.io/github/license/seankelliher/us-senate-directory?style=flat-square)](/LICENSE.txt)
 ## US Senate Directory
 
-Directory of United States Senators built with Vue.js. [View working component](https://sean-kelliher-us-senate-directory.netlify.app).
+Searchable directory of current US Senators, filterable by state, gender, party, re-election date, or any combination of these. There is also a search bar to search by a Senator's first, last, or full name, with some "fuzzy logic." For example, people can search for Bob or Robert Casey, Dick or Richard Durbin. Built with Vue.js with data stored locally. [View working component](https://sean-kelliher-us-senate-directory.netlify.app).
 
 ## Project Status
 
@@ -9,14 +9,11 @@ Project meets general accessibility (WACG) and cross-browser requirements. More 
 
 ## Project Screen Shots
 
-* Starting view - all Senators, desktop.
+* Starting view - all Senators.
 ![screen shot of project](/screenshots/us-senate-directory-screenshot1.png?s=600)
 
-* Female Democrats up for re-election in 2024, desktop.
+* Female Democrats.
 ![screen shot of project](/screenshots/us-senate-directory-screenshot2.png?s=600)
-
-* Alabama Senators, tablet-sized screen.
-![screen shot of project](/screenshots/us-senate-directory-screenshot3.png?s=600)
 
 ## Installation and Setup Instructions
 
@@ -33,12 +30,6 @@ To Run Vue:
 To Visit App:
 
 Visit the localhost port displayed in the terminal after running `npm run dev`.
-
-## Reflection
-
-My goal was to build a directory so users can easily view members of the US Senate. I included filters so users can narrow their view by state, gender, party, or when Senators are up for re-election. I also included a search bar so users can search for a Senator by first, last, or full name. Since some Senators have less formal and more formal names, I also built the search to try to accommodate these variables. For example, people can search for Bob or Robert Casey; Dick or Richard Durbin. 
-
-A big challenge was ensuring the filters work without error. The other was accommodating smaller viewports, especially mobile phones, where there is a lot of information to display and not much space.
 
 ## Acknowledgments
 
