@@ -46,8 +46,6 @@ main {
 }
 
 form {
-    margin-top: 1em;
-    padding: 1em 0 0.5em; /* Longhand 1em 0 0.5em 0 */
     flex: initial;
     display: flex;
     flex-flow: row wrap;
@@ -58,49 +56,60 @@ form {
 @media (min-width: 300px) and (max-width: 699px) {
     form {
         width: 100%;
+        margin-top: 0;
+        padding: 0 0 0.5em; /* Longhand 0 0 0.5em 0 */
     }
 }
 
 @media (min-width: 700px) and (max-width: 799px) {
     form {
         width: 45%;
-        position: sticky;
-        top: 0;
+        margin-top: 1em;
+        padding: 1em 0 0.5em; /* Longhand 1em 0 0.5em 0 */
     }
 }
 
 @media (min-width: 800px) and (max-width: 899px) {
     form {
         width: 35%;
-        position: sticky;
-        top: 0;
+        margin-top: 1em;
+        padding: 1em 0 0.5em; /* Longhand 1em 0 0.5em 0 */
     }
 }
 
 @media (min-width: 900px) and (max-width: 999px) {
     form {
         width: 30%;
-        position: sticky;
-        top: 0;
+        margin-top: 1em;
+        padding: 1em 0 0.5em; /* Longhand 1em 0 0.5em 0 */
     }
 }
 
 @media (min-width: 1000px) and (max-width: 1099px) {
     form {
         width: 35%;
-        position: sticky;
-        top: 0;
+        margin-top: 1em;
+        padding: 1em 0 0.5em; /* Longhand 1em 0 0.5em 0 */
     }
 }
 
 @media (min-width: 1100px) {
     form {
         width: 25%;
+        margin-top: 1em;
+        padding: 1em 0 0.5em; /* Longhand 1em 0 0.5em 0 */
+    }
+}
+
+/* Makes form sticky if viewport is wide and tall enough */
+@media (min-width: 700px) and (min-height: 900px) {
+    form {
         position: sticky;
         top: 0;
     }
 }
 
+/* Figure class for Senate seal */
 .seal-box {
     margin: 0;
     flex: initial;
@@ -124,17 +133,24 @@ form {
     }
 }
 
-@media (min-width: 500px) and (max-width: 699px) {
+@media (min-width: 500px) and (max-width: 599px) {
     .seal-box {
         width: 30%;
         padding: 0 35%;
     }
 }
 
+@media (min-width: 600px) and (max-width: 699px) {
+    .seal-box {
+        width: 25%;
+        padding: 0 37.5%;
+    }
+}
+
 @media (min-width: 700px) {
     .seal-box {
-        width: 60%;
-        padding: 0 20%;
+        width: 50%;
+        padding: 0 25%;
     }
 }
 
@@ -345,7 +361,8 @@ section {
     }
 }
 
-figure {
+/* Figure class for Senator photo */
+.portrait {
     width: 90%;
     margin-right: 5%;
     margin-left: 5%;
