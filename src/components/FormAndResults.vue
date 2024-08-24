@@ -230,7 +230,7 @@ function clearAll() {
             <p id="no-results">No matching results.</p>
             <template v-for="senator in senators" :key="senator.bioguideId">
                 <div v-if="commons.includes(senator.bioguideId)" class="card">
-                    <figure>
+                    <figure class="portrait">
                         <img
                             :src="`./images/${senator.portrait}.jpg`"
                             :alt="`portrait of Senator ${senator.firstName} ${senator.lastName}`"
