@@ -23,6 +23,21 @@ const commons = computed(() => {
     return selects.value.reduce((p,c) => p.filter(e => c.includes(e)));
 });
 
+// Variables for counts in form.
+const byParty = ref([]);
+const byPartyDem = ref(0);
+const byPartyRep = ref(0);
+const byPartyInd = ref(0);
+
+const byGender = ref([]);
+const byGenderMale = ref(0);
+const byGenderFemale = ref(0);
+
+const bySenateClass = ref([]);
+const bySenateClass1 = ref(0); // Nov 2024
+const bySenateClass2 = ref(0); // Nov 2026
+const bySenateClass3 = ref(0); // Nov 2028
+
 // When component mounts...
 onMounted(() => {
     // Hides the "no results" message
@@ -32,6 +47,23 @@ onMounted(() => {
     // Get the "submit" button, simulate click to display all Senators.
     const btn = document.getElementById("btn-submit");
     btn.click();
+
+    // Party counts within form.
+    byParty.value = Object.groupBy(senators, ({ party }) => party);
+    byPartyDem.value = byParty.value.Democrat.length;
+    byPartyRep.value = byParty.value.Republican.length;
+    byPartyInd.value = byParty.value.Independent.length;
+
+    // Gender counts within form.
+    byGender.value = Object.groupBy(senators, ({ gender }) => gender);
+    byGenderMale.value = byGender.value.male.length;
+    byGenderFemale.value = byGender.value.female.length;
+
+    // Senate class counts within form.
+    bySenateClass.value = Object.groupBy(senators, ({ senateClass }) => senateClass);
+    bySenateClass1.value = bySenateClass.value.class1.length;
+    bySenateClass2.value = bySenateClass.value.class2.length;
+    bySenateClass3.value = bySenateClass.value.class3.length;
 });
 
 // Checks results after user clicks "submit". Displays "no results" if needed.
@@ -134,11 +166,11 @@ function clearAll() {
                 <input type="radio" id="all-parties" value="All Parties" v-model="party" />
                 <label for="all-parties">All</label><br />
                 <input type="radio" id="democrat" value="Democrat" v-model="party" />
-                <label for="democrat">Democrat</label><br />
+                <label for="democrat">Democrat <span class="count">{{ byPartyDem }}</span></label><br />
                 <input type="radio" id="republican" value="Republican" v-model="party" />
-                <label for="republican">Republican</label><br />
+                <label for="republican">Republican <span class="count">{{ byPartyRep }}</span></label><br />
                 <input type="radio" id="independent" value="Independent" v-model="party" />
-                <label for="independent">Independent</label>
+                <label for="independent">Independent <span class="count">{{ byPartyInd }}</span></label>
             </fieldset>
 
             <fieldset>
@@ -146,9 +178,9 @@ function clearAll() {
                 <input type="radio" id="all-genders" value="All Genders" v-model="gender" />
                 <label for="all-genders">All</label><br />
                 <input type="radio" id="male" value="male" v-model="gender" />
-                <label for="male">Male</label><br />
+                <label for="male">Male <span class="count">{{ byGenderMale }}</span></label><br />
                 <input type="radio" id="female" value="female" v-model="gender" />
-                <label for="female">Female</label>
+                <label for="female">Female <span class="count">{{ byGenderFemale }}</span></label>
             </fieldset>
 
             <fieldset>
@@ -156,11 +188,11 @@ function clearAll() {
                 <input type="radio" id="all-elections" value="All Elections" v-model="reelection" />
                 <label for="all-elections">All</label><br />
                 <input type="radio" id="class1" value="class1" v-model="reelection" />
-                <label for="class1">November 2024</label><br />
+                <label for="class1">November 2024 <span class="count">{{ bySenateClass1 }}</span></label><br />
                 <input type="radio" id="class2" value="class2" v-model="reelection" />
-                <label for="class2">November 2026</label><br />
+                <label for="class2">November 2026 <span class="count">{{ bySenateClass2 }}</span></label><br />
                 <input type="radio" id="class3" value="class3" v-model="reelection" />
-                <label for="class3">November 2028</label>
+                <label for="class3">November 2028 <span class="count">{{ bySenateClass3 }}</span></label>
             </fieldset>
 
             <div class="states-box">
