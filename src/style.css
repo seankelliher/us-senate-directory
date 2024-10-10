@@ -21,7 +21,6 @@ header {
     padding: 0 5%;
     background: #d4e3ff; /* P-90 */
     flex: initial;
-    text-align: center;
     position: relative
 }
 
@@ -376,6 +375,10 @@ img {
     display: block;
 }
 
+.rounded {
+    border-radius: 6px;
+}
+
 /* Font styles */
 h1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -453,7 +456,7 @@ label[for="states-list"] {
     background: #ffddb2; /* T-90 */
     margin: 0;
     padding: 0 0.25em;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 input::placeholder {
