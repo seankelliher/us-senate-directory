@@ -266,6 +266,7 @@ function clearAll() {
                         <img
                             :src="`./images/${senator.portrait}.jpg`"
                             :alt="`portrait of Senator ${senator.firstName} ${senator.lastName}`"
+                            class="rounded"
                         >
                         <figcaption hidden>{{ senator.firstName }} {{ senator.lastName }}</figcaption>
                     </figure>
