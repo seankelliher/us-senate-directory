@@ -1,12 +1,25 @@
 <script setup>
-import HeaderPart from "./components/HeaderPart.vue";
-import FormAndResults from "./components/FormAndResults.vue";
+import HeaderIcons from "./components/HeaderIcons.vue";
+import BadgePanel from "./components/BadgePanel.vue";
+import MenuForm from "./components/MenuForm.vue";
+import SenatorCard from "./components/SenatorCard.vue";
+import { store } from "./composables/store.js";
+import { onMounted } from "vue";
+
+onMounted(() => {
+    store.showAll();
+});
 </script>
 
 <template>
     <div id="container">
-        <HeaderPart headline="United States Senate Directory" />
-        <FormAndResults />
+        <HeaderIcons headline="United States Senate" />
+        <main>
+            <div v-if="store.menu" class="overlay"></div>
+            <BadgePanel />
+            <MenuForm />
+            <SenatorCard />
+        </main>
     </div>
 </template>
 
