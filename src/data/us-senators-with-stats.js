@@ -14,8 +14,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-5653",
         portrait: "wi-tammy-baldwin",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Wisconsin",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Wisconsin",
+        stateAbbr: "wi",
         website: "baldwin.senate.gov",
         fullNames: ["tammy baldwin"]
     },
@@ -34,8 +35,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-6441",
         portrait: "wy-john-barrasso",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Wyoming",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Wyoming",
+        stateAbbr: "wy",
         website: "barrasso.senate.gov",
         fullNames: ["john barrasso"]
     },
@@ -54,8 +56,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-5852",
         portrait: "co-michael-bennet",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Colorado",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Colorado",
+        stateAbbr: "co",
         website: "bennet.senate.gov",
         fullNames: ["mike bennet", "michael bennet"]
     },
@@ -74,8 +77,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-3344",
         portrait: "tn-marsha-blackburn",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Tennessee",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Tennessee",
+        stateAbbr: "tn",
         website: "blackburn.senate.gov",
         fullNames: ["marsha blackburn"]
     },
@@ -94,8 +98,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-2823",
         portrait: "ct-richard-blumenthal",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Connecticut",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Connecticut",
+        stateAbbr: "ct",
         website: "blumenthal.senate.gov",
         fullNames: ["richard blumenthal", "dick blumenthal"]
     },
@@ -114,8 +119,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-3224",
         portrait: "nj-cory-booker",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "New Jersey",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "New Jersey",
+        stateAbbr: "nj",
         website: "booker.senate.gov",
         fullNames: ["cory booker"]
     },
@@ -134,8 +140,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-4843",
         portrait: "ar-john-boozman",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Arkansas",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Arkansas",
+        stateAbbr: "ar",
         website: "boozman.senate.gov",
         fullNames: ["john boozman"]
     },
@@ -154,8 +161,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-4814",
         portrait: "in-mike-braun",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Indiana",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Indiana",
+        stateAbbr: "in",
         website: "braun.senate.gov",
         fullNames: ["mike braun", "michael braun"]
     },
@@ -174,8 +182,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-5744",
         portrait: "al-katie-britt",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Alabama",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Alabama",
+        stateAbbr: "al",
         website: "britt.senate.gov",
         fullNames: ["katie boyd britt"]
     },
@@ -194,8 +203,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-2315",
         portrait: "oh-sherrod-brown",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Ohio",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Ohio",
+        stateAbbr: "oh",
         website: "brown.senate.gov",
         fullNames: ["sherrod brown"]
     },
@@ -214,8 +224,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-3154",
         portrait: "nc-ted-budd",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "North Carolina",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "North Carolina",
+        stateAbbr: "nc",
         website: "budd.senate.gov",
         fullNames: ["ted budd"]
     },
@@ -234,8 +245,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-3841",
         portrait: "ca-laphonza-butler",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "California",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "California",
+        stateAbbr: "ca",
         website: "butler.senate.gov",
         fullNames: ["laphonza butler"]
     },
@@ -254,8 +266,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-3441",
         portrait: "wa-maria-cantwell",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Washington",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Washington",
+        stateAbbr: "wa",
         website: "cantwell.senate.gov",
         fullNames: ["maria cantwell"]
     },
@@ -274,8 +287,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-6472",
         portrait: "wv-shelley-moore-capito",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "West Virginia",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "West Virginia",
+        stateAbbr: "wv",
         website: "capito.senate.gov",
         fullNames: ["shelley moore capito"]
     },
@@ -294,8 +308,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-4524",
         portrait: "md-benjamin-cardin",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Maryland",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Maryland",
+        stateAbbr: "md",
         website: "cardin.senate.gov",
         fullNames: ["benjamin cardin", "ben cardin"]
     },
@@ -314,8 +329,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-2441",
         portrait: "de-thomas-carper",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Delaware",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Delaware",
+        stateAbbr: "de",
         website: "carper.senate.gov",
         fullNames: ["thomas carper", "tom carper"]
     },
@@ -334,8 +350,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-6324",
         portrait: "pa-robert-casey",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Pennsylvania",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Pennsylvania",
+        stateAbbr: "pa",
         website: "casey.senate.gov",
         fullNames: ["robert casey", "bob casey"]
     },
@@ -354,8 +371,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-5824",
         portrait: "la-bill-cassidy",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Louisiana",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Louisiana",
+        stateAbbr: "la",
         website: "cassidy.senate.gov",
         fullNames: ["bill cassidy", "william cassidy"]
     },
@@ -374,8 +392,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-2523",
         portrait: "me-susan-collins",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Maine",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Maine",
+        stateAbbr: "me",
         website: "collins.senate.gov",
         fullNames: ["susan collins"]
     },
@@ -394,8 +413,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-5042",
         portrait: "de-christopher-coons",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Delaware",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Delaware",
+        stateAbbr: "de",
         website: "coons.senate.gov",
         fullNames: ["christopher coons", "chris coons"]
     },
@@ -414,8 +434,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-2934",
         portrait: "tx-john-cornyn",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Texas",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Texas",
+        stateAbbr: "tx",
         website: "cornyn.senate.gov",
         fullNames: ["john cornyn"]
     },
@@ -434,8 +455,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-3542",
         portrait: "nv-catherine-cortez-masto",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Nevada",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Nevada",
+        stateAbbr: "nv",
         website: "cortezmasto.senate.gov",
         fullNames: ["catherine cortez masto"]
     },
@@ -454,8 +476,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-2353",
         portrait: "ar-tom-cotton",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Arkansas",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Arkansas",
+        stateAbbr: "ar",
         website: "cotton.senate.gov",
         fullNames: ["tom cotton", "thomas cotton"]
     },
@@ -474,8 +497,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-2043",
         portrait: "nd-kevin-cramer",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "North Dakota",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "North Dakota",
+        stateAbbr: "nd",
         website: "cramer.senate.gov",
         fullNames: ["kevin cramer"]
     },
@@ -494,8 +518,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-6142",
         portrait: "id-mike-crapo",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Idaho",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Idaho",
+        stateAbbr: "id",
         website: "crapo.senate.gov",
         fullNames: ["mike crapo", "michael crapo"]
     },
@@ -514,8 +539,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-5922",
         portrait: "tx-ted-cruz",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Texas",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Texas",
+        stateAbbr: "tx",
         website: "cruz.senate.gov",
         fullNames: ["ted cruz"]
     },
@@ -534,8 +560,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-2651",
         portrait: "mt-steve-daines",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Montana",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Montana",
+        stateAbbr: "mt",
         website: "daines.senate.gov",
         fullNames: ["steve daines", "steven daines"]
     },
@@ -554,8 +581,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-2854",
         portrait: "il-tammy-duckworth",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Illinois",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Illinois",
+        stateAbbr: "il",
         website: "duckworth.senate.gov",
         fullNames: ["tammy duckworth"]
     },
@@ -574,8 +602,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-2152",
         portrait: "il-richard-durbin",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Illinois",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Illinois",
+        stateAbbr: "il",
         website: "durbin.senate.gov",
         fullNames: ["richard durbin", "dick durbin"]
     },
@@ -594,8 +623,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-3254",
         portrait: "ia-joni-ernst",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Iowa",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Iowa",
+        stateAbbr: "ia",
         website: "ernst.senate.gov",
         fullNames: ["joni ernst"]
     },
@@ -614,8 +644,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-4254",
         portrait: "pa-john-fetterman",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Pennsylvania",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Pennsylvania",
+        stateAbbr: "pa",
         website: "fetterman.senate.gov",
         fullNames: ["john fetterman"]
     },
@@ -634,8 +665,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-6551",
         portrait: "ne-deb-fischer",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Nebraska",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Nebraska",
+        stateAbbr: "ne",
         website: "fischer.senate.gov",
         fullNames: ["deb fischer", "deborah fischer"]
     },
@@ -654,8 +686,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-4451",
         portrait: "ny-kirsten-gillibrand",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "New York",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "New York",
+        stateAbbr: "ny",
         website: "gillibrand.senate.gov",
         fullNames: ["kirsten gillibrand"]
     },
@@ -674,8 +707,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-5972",
         portrait: "sc-lindsey-graham",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "South Carolina",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "South Carolina",
+        stateAbbr: "sc",
         website: "lgraham.senate.gov",
         fullNames: ["lindsey graham"]
     },
@@ -694,8 +728,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-3744",
         portrait: "ia-chuck-grassley",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Iowa",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Iowa",
+        stateAbbr: "ia",
         website: "grassley.senate.gov",
         fullNames: ["chuck grassley", "charles grassley"]
     },
@@ -714,8 +749,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-4944",
         portrait: "tn-bill-hagerty",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Tennessee",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Tennessee",
+        stateAbbr: "tn",
         website: "hagerty.senate.gov",
         fullNames: ["bill hagerty", "william hagerty"]
     },
@@ -734,8 +770,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-3324",
         portrait: "nh-maggie-hassan",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "New Hampshire",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "New Hampshire",
+        stateAbbr: "nh",
         website: "hassan.senate.gov",
         fullNames: ["maggie hassan"]
     },
@@ -754,8 +791,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-6154",
         portrait: "mo-josh-hawley",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Missouri",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Missouri",
+        stateAbbr: "mo",
         website: "hawley.senate.gov",
         fullNames: ["josh hawley"]
     },
@@ -774,8 +812,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-5521",
         portrait: "nm-martin-heinrich",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "New Mexico",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "New Mexico",
+        stateAbbr: "nm",
         website: "heinrich.senate.gov",
         fullNames: ["martin heinrich"]
     },
@@ -794,8 +833,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-5941",
         portrait: "co-john-hickenlooper",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Colorado",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Colorado",
+        stateAbbr: "co",
         website: "hickenlooper.senate.gov",
         fullNames: ["john hickenlooper"]
     },
@@ -814,8 +854,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-6361",
         portrait: "hi-mazie-hirono",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Hawaii",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Hawaii",
+        stateAbbr: "hi",
         website: "hirono.senate.gov",
         fullNames: ["mazie hirono"]
     },
@@ -834,8 +875,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-2551",
         portrait: "nd-john-hoeven",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "North Dakota",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "North Dakota",
+        stateAbbr: "nd",
         website: "hoeven.senate.gov",
         fullNames: ["john hoeven"]
     },
@@ -854,8 +896,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-5054",
         portrait: "ms-cindy-hyde-smith",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Mississippi",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Mississippi",
+        stateAbbr: "ms",
         website: "hydesmith.senate.gov",
         fullNames: ["cindy hyde smith","republican"]
     },
@@ -874,8 +917,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-5323",
         portrait: "wi-ron-johnson",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Wisconsin",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Wisconsin",
+        stateAbbr: "wi",
         website: "ronjohnson.senate.gov",
         fullNames: ["ron johnson", "ronald johnson"]
     },
@@ -894,8 +938,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-4024",
         portrait: "va-tim-kaine",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Virginia",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Virginia",
+        stateAbbr: "va",
         website: "kaine.senate.gov",
         fullNames: ["tim kaine", "timothy kaine"]
     },
@@ -914,8 +959,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-2235",
         portrait: "az-mark-kelly",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Arizona",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Arizona",
+        stateAbbr: "az",
         website: "kelly.senate.gov",
         fullNames: ["mark kelly"]
     },
@@ -934,8 +980,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-4623",
         portrait: "la-john-kennedy",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Louisiana",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Louisiana",
+        stateAbbr: "la",
         website: "kennedy.senate.gov",
         fullNames: ["john kennedy"]
     },
@@ -954,8 +1001,9 @@ const senators = [
         party: "Independent",
         phone: "(202) 224-5344",
         portrait: "me-angus-king",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Maine",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Maine",
+        stateAbbr: "me",
         website: "king.senate.gov",
         fullNames: ["angus king"]
     },
@@ -974,8 +1022,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-3244",
         portrait: "mn-amy-klobuchar",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Minnesota",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Minnesota",
+        stateAbbr: "mn",
         website: "klobuchar.senate.gov",
         fullNames: ["amy klobuchar"]
     },
@@ -994,8 +1043,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-5754",
         portrait: "ok-james-lankford",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Oklahoma",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Oklahoma",
+        stateAbbr: "ok",
         website: "lankford.senate.gov",
         fullNames: ["james lankford", "jim lankford"]
     },
@@ -1014,8 +1064,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-5444",
         portrait: "ut-mike-lee",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Utah",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Utah",
+        stateAbbr: "ut",
         website: "lee.senate.gov",
         fullNames: ["mike lee", "michael lee"]
     },
@@ -1034,8 +1085,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-6621",
         portrait: "nm-ben-ray-lujan",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "New Mexico",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "New Mexico",
+        stateAbbr: "nm",
         website: "lujan.senate.gov",
         fullNames: ["ben ray lujan"]
     },
@@ -1054,8 +1106,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-3424",
         portrait: "wy-cynthia-lummis",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Wyoming",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Wyoming",
+        stateAbbr: "wy",
         website: "lummis.senate.gov",
         fullNames: ["cynthia lummis", "cindy lummis"]
     },
@@ -1074,8 +1127,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-3954",
         portrait: "wv-joe-manchin",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "West Virginia",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "West Virginia",
+        stateAbbr: "wv",
         website: "manchin.senate.gov",
         fullNames: ["joe manchin", "joseph manchin"]
     },
@@ -1094,8 +1148,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-2742",
         portrait: "ma-ed-markey",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Massachusetts",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Massachusetts",
+        stateAbbr: "ma",
         website: "markey.senate.gov",
         fullNames: ["ed markey", "edward markey","democrat"]
     },
@@ -1114,8 +1169,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-4774",
         portrait: "ks-roger-marshall",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Kansas",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Kansas",
+        stateAbbr: "ks",
         website: "marshall.senate.gov",
         fullNames: ["roger marshall"]
     },
@@ -1134,8 +1190,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-2541",
         portrait: "ky-mitch-mcconnell",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Kentucky",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Kentucky",
+        stateAbbr: "ky",
         website: "mcconnell.senate.gov",
         fullNames: ["mitch mcconnell"]
     },
@@ -1154,8 +1211,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-4744",
         portrait: "nj-robert-menendez",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "New Jersey",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "New Jersey",
+        stateAbbr: "nj",
         website: "menendez.senate.gov",
         fullNames: ["robert menendez", "rob menendez"]
     },
@@ -1174,8 +1232,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-3753",
         portrait: "or-jeff-merkley",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Oregon",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Oregon",
+        stateAbbr: "or",
         website: "merkley.senate.gov",
         fullNames: ["jeff merkley", "jeffrey merkley"]
     },
@@ -1194,8 +1253,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-6521",
         portrait: "ks-jerry-moran",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Kansas",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Kansas",
+        stateAbbr: "ks",
         website: "moran.senate.gov",
         fullNames: ["jerry moran"]
     },
@@ -1214,8 +1274,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-4721",
         portrait: "ok-markwayne-mullin",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Oklahoma",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Oklahoma",
+        stateAbbr: "ok",
         website: "mullin.senate.gov",
         fullNames: ["markwayne mullin"]
     },
@@ -1234,8 +1295,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-6665",
         portrait: "ak-lisa-murkowski",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Alaska",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Alaska",
+        stateAbbr: "ak",
         website: "murkowski.senate.gov",
         fullNames: ["lisa murkowski"]
     },
@@ -1254,8 +1316,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-4041",
         portrait: "ct-christopher-murphy",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Connecticut",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Connecticut",
+        stateAbbr: "ct",
         website: "murphy.senate.gov",
         fullNames: ["christopher murphy", "chris murphy"]
     },
@@ -1274,8 +1337,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-2621",
         portrait: "wa-patty-murray",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Washington",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Washington",
+        stateAbbr: "wa",
         website: "murray.senate.gov",
         fullNames: ["patty murray", "patricia murray"]
     },
@@ -1294,8 +1358,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-3521",
         portrait: "ga-jon-ossoff",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Georgia",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Georgia",
+        stateAbbr: "ga",
         website: "ossoff.senate.gov",
         fullNames: ["jon ossoff"]
     },
@@ -1314,8 +1379,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-3553",
         portrait: "ca-alex-padilla",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "California",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "California",
+        stateAbbr: "ca",
         website: "padilla.senate.gov",
         fullNames: ["alex padilla", "alexander padilla"]
     },
@@ -1334,8 +1400,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-4343",
         portrait: "ky-rand-paul",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Kentucky",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Kentucky",
+        stateAbbr: "ky",
         website: "paul.senate.gov",
         fullNames: ["rand paul"]
     },
@@ -1354,8 +1421,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-6221",
         portrait: "mi-gary-peters",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Michigan",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Michigan",
+        stateAbbr: "mi",
         website: "peters.senate.gov",
         fullNames: ["gary peters"]
     },
@@ -1374,8 +1442,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-4642",
         portrait: "ri-jack-reed",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Rhode Island",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Rhode Island",
+        stateAbbr: "ri",
         website: "reed.senate.gov",
         fullNames: ["jack reed"]
     },
@@ -1394,8 +1463,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-4224",
         portrait: "ne-pete-ricketts",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Nebraska",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Nebraska",
+        stateAbbr: "ne",
         website: "ricketts.senate.gov",
         fullNames: ["pete ricketts", "peter ricketts"]
     },
@@ -1414,8 +1484,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-2752",
         portrait: "id-james-risch",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Idaho",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Idaho",
+        stateAbbr: "id",
         website: "risch.senate.gov",
         fullNames: ["james risch", "jim risch"]
     },
@@ -1434,8 +1505,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-5251",
         portrait: "ut-mitt-romney",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Utah",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Utah",
+        stateAbbr: "ut",
         website: "romney.senate.gov",
         fullNames: ["mitt romney"]
     },
@@ -1454,8 +1526,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-6244",
         portrait: "nv-jacky-rosen",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Nevada",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Nevada",
+        stateAbbr: "nv",
         website: "rosen.senate.gov",
         fullNames: ["jacky rosen"]
     },
@@ -1474,8 +1547,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-5842",
         portrait: "sd-mike-rounds",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "South Dakota",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "South Dakota",
+        stateAbbr: "sd",
         website: "rounds.senate.gov",
         fullNames: ["mike rounds", "michael rounds"]
     },
@@ -1494,8 +1568,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-3041",
         portrait: "fl-marco-rubio",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Florida",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Florida",
+        stateAbbr: "fl",
         website: "rubio.senate.gov",
         fullNames: ["marco rubio"]
     },
@@ -1514,8 +1589,9 @@ const senators = [
         party: "Independent",
         phone: "(202) 224-5141",
         portrait: "vt-bernie-sanders",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Vermont",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Vermont",
+        stateAbbr: "vt",
         website: "sanders.senate.gov",
         fullNames: ["bernie sanders"]
     },
@@ -1534,8 +1610,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-3934",
         portrait: "hi-brian-schatz",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Hawaii",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Hawaii",
+        stateAbbr: "hi",
         website: "schatz.senate.gov",
         fullNames: ["brian schatz"]
     },
@@ -1554,8 +1631,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-5721",
         portrait: "mo-eric-schmitt",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Missouri",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Missouri",
+        stateAbbr: "mo",
         website: "schmitt.senate.gov",
         fullNames: ["eric schmitt"]
     },
@@ -1574,8 +1652,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-6542",
         portrait: "ny-chuck-schumer",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "New York",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "New York",
+        stateAbbr: "ny",
         website: "schumer.senate.gov",
         fullNames: ["chuck schumer", "charles schumer"]
     },
@@ -1594,8 +1673,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-5274",
         portrait: "fl-rick-scott",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Florida",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Florida",
+        stateAbbr: "fl",
         website: "rickscott.senate.gov",
         fullNames: ["rick scott"]
     },
@@ -1614,8 +1694,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-6121",
         portrait: "sc-tim-scott",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "South Carolina",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "South Carolina",
+        stateAbbr: "sc",
         website: "scott.senate.gov",
         fullNames: ["tim scott", "timothy scott"]
     },
@@ -1634,8 +1715,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-2841",
         portrait: "nh-jeanne-shaheen",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "New Hampshire",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "New Hampshire",
+        stateAbbr: "nh",
         website: "shaheen.senate.gov",
         fullNames: ["jeanne shaheen"]
     },
@@ -1654,8 +1736,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-4521",
         portrait: "az-kyrsten-sinema",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Arizona",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Arizona",
+        stateAbbr: "az",
         website: "sinema.senate.gov",
         fullNames: ["kyrsten sinema"]
     },
@@ -1674,8 +1757,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-5641",
         portrait: "mn-tina-smith",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Minnesota",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Minnesota",
+        stateAbbr: "mn",
         website: "smith.senate.gov",
         fullNames: ["tina smith"]
     },
@@ -1694,8 +1778,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-4822",
         portrait: "mi-debbie-stabenow",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Michigan",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Michigan",
+        stateAbbr: "mi",
         website: "stabenow.senate.gov",
         fullNames: ["debbie stabenow", "deborah stabenow"]
     },
@@ -1714,8 +1799,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-3004",
         portrait: "ak-dan-sullivan",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Alaska",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Alaska",
+        stateAbbr: "ak",
         website: "sullivan.senate.gov",
         fullNames: ["dan sullivan", "daniel sullivan"]
     },
@@ -1734,8 +1820,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-2644",
         portrait: "mt-jon-tester",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Montana",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Montana",
+        stateAbbr: "mt",
         website: "tester.senate.gov",
         fullNames: ["jon tester"]
     },
@@ -1754,8 +1841,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-2321",
         portrait: "sd-john-thune",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "South Dakota",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "South Dakota",
+        stateAbbr: "sd",
         website: "thune.senate.gov",
         fullNames: ["john thune"]
     },
@@ -1774,8 +1862,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-6342",
         portrait: "nc-thom-tillis",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "North Carolina",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "North Carolina",
+        stateAbbr: "nc",
         website: "tillis.senate.gov",
         fullNames: ["thom tillis"]
     },
@@ -1794,8 +1883,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-4124",
         portrait: "al-tommy-tuberville",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Alabama",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Alabama",
+        stateAbbr: "al",
         website: "tuberville.senate.gov",
         fullNames: ["tommy tuberville", "thomas tuberville"]
     },
@@ -1814,8 +1904,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-4654",
         portrait: "md-chris-van-hollen",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Maryland",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Maryland",
+        stateAbbr: "md",
         website: "vanhollen.senate.gov",
         fullNames: ["chris van hollen", "christopher van hollen"]
     },
@@ -1834,8 +1925,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-3353",
         portrait: "oh-jd-vance",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Ohio",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Ohio",
+        stateAbbr: "oh",
         website: "vance.senate.gov",
         fullNames: ["jd vance"]
     },
@@ -1854,8 +1946,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-2023",
         portrait: "va-mark-warner",
-        senateClass: "class2", // reelection Nov 2026.
-        state: "Virginia",
+        reelection: "class2", // reelection Nov 2026.
+        stateName: "Virginia",
+        stateAbbr: "va",
         website: "warner.senate.gov",
         fullNames: ["mark warner"]
     },
@@ -1874,8 +1967,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-3643",
         portrait: "ga-raphael-warnock",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Georgia",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Georgia",
+        stateAbbr: "ga",
         website: "warnock.senate.gov",
         fullNames: ["raphael warnock"]
     },
@@ -1894,8 +1988,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-4543",
         portrait: "ma-elizabeth-warren",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Massachusetts",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Massachusetts",
+        stateAbbr: "ma",
         website: "warren.senate.gov",
         fullNames: ["elizabeth warren"]
     },
@@ -1914,8 +2009,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-4242",
         portrait: "vt-peter-welch",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Vermont",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Vermont",
+        stateAbbr: "vt",
         website: "welch.senate.gov",
         fullNames: ["peter welch"]
     },
@@ -1934,8 +2030,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-2921",
         portrait: "ri-sheldon-whitehouse",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Rhode Island",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Rhode Island",
+        stateAbbr: "ri",
         website: "whitehouse.senate.gov",
         fullNames: ["sheldon whitehouse"]
     },
@@ -1954,8 +2051,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-6253",
         portrait: "ms-roger-wicker",
-        senateClass: "class1", // reelection Nov 2024.
-        state: "Mississippi",
+        reelection: "class1", // reelection Nov 2024.
+        stateName: "Mississippi",
+        stateAbbr: "ms",
         website: "wicker.senate.gov",
         fullNames: ["roger wicker"]
     },
@@ -1974,8 +2072,9 @@ const senators = [
         party: "Democrat",
         phone: "(202) 224-5244",
         portrait: "or-ron-wyden",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Oregon",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Oregon",
+        stateAbbr: "or",
         website: "wyden.senate.gov",
         fullNames: ["ron wyden", "ronald wyden"]
     },
@@ -1994,8 +2093,9 @@ const senators = [
         party: "Republican",
         phone: "(202) 224-5623",
         portrait: "in-todd-young",
-        senateClass: "class3", // reelection Nov 2028.
-        state: "Indiana",
+        reelection: "class3", // reelection Nov 2028.
+        stateName: "Indiana",
+        stateAbbr: "in",
         website: "young.senate.gov",
         fullNames: ["todd young"]
     }
