@@ -5,15 +5,18 @@ Searchable directory of current US Senators, filterable by state, gender, party,
 
 ## Project Status
 
-Project meets general accessibility (WACG) and cross-browser requirements. More testing with a dedicated services (e.g., Sauce Labs) would be helpful if deploying to production.
+TESTING: Testing for accessibility (WACG) and cross-browser requirements after making some design changes.
 
 ## Project Screen Shots
 
 * Starting view - all Senators.
 ![screen shot of project](/screenshots/us-senate-directory-screenshot1.png?s=600)
 
-* Female Democrats.
+* Pop-up menu for filtering.
 ![screen shot of project](/screenshots/us-senate-directory-screenshot2.png?s=600)
+
+* Female Republicans, up for re-election in November 2026.
+![screen shot of project](/screenshots/us-senate-directory-screenshot3.png?s=600)
 
 ## Installation and Setup Instructions
 
@@ -39,5 +42,6 @@ Visit the localhost port displayed in the terminal after running `npm run dev`.
 * Readme guidance from [Brenna Martenson](https://gist.github.com/martensonbj/6bf2ec2ed55f5be723415ea73c4557c4).
 * Helpful information on filtering from [Stackoverflow users](https://stackoverflow.com/questions/11076067/finding-matches-between-multiple-javascript-arrays).
 * Design guidance from Google's [Material Design](https://material.io/design).
+* Fonts and icons from [Google Fonts](https://fonts.google.com).
 * WACG guidance from [Firefox's Developer Tools](https://firefox-source-docs.mozilla.org/devtools-user/#).
 * Shields from [Shields](https://shields.io).
