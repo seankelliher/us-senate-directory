@@ -5,7 +5,7 @@ Searchable directory of current US Senators, filterable by state, gender, party,
 
 ## Project Status
 
-TESTING: Testing for accessibility (WACG) and cross-browser requirements after making some design changes.
+Project meets general accessibility (WACG) and cross-browser requirements. More testing with a dedicated services (e.g., Sauce Labs) would be helpful if deploying to production.
 
 ## Project Screen Shots
 
