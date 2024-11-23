@@ -22,8 +22,6 @@ const upperCaseState = computed(() => {
         return store.stateAbbr.toUpperCase();
     }
 });
-
-
 </script>
 
 <template>
@@ -44,10 +42,15 @@ const upperCaseState = computed(() => {
         </div>
         <div
             class="badge roboto-flex four link-like"
-            @click="store.reset()">
-                reset filters
+            tabindex="0"
+            role="button"
+            @click="store.reset()"
+            @keyup.enter="store.reset()"
+        >
+            reset filters
         </div>
     </div>
 </template>
 
-
+<style scoped>
+</style>

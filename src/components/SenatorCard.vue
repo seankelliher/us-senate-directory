@@ -5,7 +5,6 @@ import { store } from "../composables/store.js";
 
 <template>
     <section>
-        <!--<div v-if="store.menu" class="overlay"></div>-->
         <p
             v-if="store.noResults"
             id="no-results"

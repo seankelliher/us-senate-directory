@@ -49,3 +49,6 @@ import { store } from "../composables/store.js";
         </figure>
     </header>
 </template>
+
+<style scoped>
+</style>
