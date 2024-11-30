@@ -1,7 +1,13 @@
+/* @link https://utopia.fyi/type/calculator?c=320,15,1.125,1280,17,1.125,1,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+:root {
+    --fs-0: clamp(0.9375rem, 0.8958rem + 0.2083vw, 1.0625rem);
+    --fs-1: clamp(1.0547rem, 1.0078rem + 0.2344vw, 1.1953rem);
+}
+
 /* Stylesheet uses Level 3 Media Queries. Level 4 coverage still spotty. */
 body {
     margin-top: 0;
-    background: #f7f9ff; /* N-98 */
+    background: #f5fafd; /* N-98 */
 }
 
 #container {
@@ -19,7 +25,7 @@ header {
     width: 90%;
     margin-bottom: 1em;
     padding: 0.25em 5%;
-    background: #d5e4f7; /* S-90 */
+    background: #cee6f0; /* S-90 */
     flex: initial;
     display: flex;
     flex-flow: row wrap;
@@ -33,8 +39,8 @@ header {
     content: "";
     position: absolute;
     inset: 0 calc((100vw - 100%) / -2) -2px calc((100vw - 100%) / -2);
-    background: #d5e4f7; /* S-90 */
-    border-bottom: 2px solid #b7c8dd; /* S-80 */
+    background: #cee6f0; /* S-90 */
+    border-bottom: 2px solid #b2cbd4; /* S-80 */
     z-index: -1;
 }
 
@@ -53,7 +59,7 @@ main {
 .overlay {
     position: absolute;
     inset: 0;
-    background: #f7f9ff; /* N-98 */
+    background: #f5fafd; /* N-98 */
     opacity: 0.80;
     z-index: 1;
 }
@@ -63,11 +69,11 @@ form {
     overflow-y: scroll;
     margin: 0;
     padding: 0.5em 0;
-    background: #f7f9ff; /* N-98 */
-    border-top: 2px solid #b7c8dd; /* S-80 */
-    border-right: 2px solid #c2c7cf; /* NV-80 */
-    border-bottom: 2px solid #c2c7cf; /* NV-80 */
-    border-left: 2px solid #c2c7cf; /* NV-80 */
+    background: #f5fafd; /* N-98 */
+    border-top: 2px solid #b2cbd4; /* S-80 */
+    border-right: 2px solid #bfc8cc; /* NV-80 */
+    border-bottom: 2px solid #bfc8cc; /* NV-80 */
+    border-left: 2px solid #bfc8cc; /* NV-80 */
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     flex: initial;
@@ -139,7 +145,7 @@ form {
     width: 80%;
     margin: 0.5em 0;
     padding: 0 10% 1em; /* Longhand 0 20% 1em 20%; */
-    border-bottom: 2px solid #c2c7cf; /* NV-80 */
+    border-bottom: 2px solid #bfc8cc; /* NV-80 */
     flex: initial;
 }
 
@@ -149,19 +155,21 @@ fieldset {
     padding: 0.5em 10%;
     border-top: none;
     border-right: none;
-    border-bottom: 2px solid #c2c7cf; /* NV-80 */
+    border-bottom: 2px solid #bfc8cc; /* NV-80 */
     border-left: none;
     flex: initial;
 }
 
 legend {
+    font-size: var(--fs-0);
     line-height: 1.5;
-    color: #181c20; /* N-10 */
+    color: #171c1f; /* N-10 */
 }
 
 label {
+    font-size: var(--fs-0);
     line-height: 1.5;
-    color: #181c20; /* N-10 */
+    color: #171c1f; /* N-10 */
 }
 
 input {
@@ -172,21 +180,24 @@ input[type="text"] {
     width: 100%;
     margin-top: 0.5em;
     border: 1px solid #c2c7cf; /* NV-80 */
+    font-size: var(--fs-1);
     line-height: 1.5;
-    color: #181c20; /* N-10 */
+    color: #171c1f; /* N-10 */
 }
 
 input::placeholder {
+    font-size: var(--fs-0);
     line-height: 1.5;
-    color: #72777f; /* NV-50 */
+    color: #70787c; /* NV-50 */
 }
 
 select {
+    font-size: var(--fs-0);
     width: 70%;
     margin-top: 0.5em;
     margin-right: 30%;
     line-height: 1.5;
-    color: #181c20; /* N-10 */
+    color: #171c1f; /* N-10 */
 }
 
 .btn-box {
@@ -203,7 +214,7 @@ select {
 button {
     width: 5em;
     border-radius: 12px;
-    font-size: 1.125em; /* 18 px */
+    font-size: var(--fs-0);
     line-height: 1.5;
     font-weight: 400;
 }
@@ -213,24 +224,24 @@ button:hover {
 }
 
 #btn-submit {
-    background: #cfe5ff; /* P-90 */
+    background: #02677d; /* P-40 */
     border: none;
     border-radius: 12px;
-    color: #001d33; /* P-10 */
+    color: #fff; /* P-100 */
 }
 
 #btn-submit:hover {
-    background: #98cbff; /* P-80 */
+    background: #004e5f; /* P-30 */
 }
 
 #btn-clear {
     background: none;
     border: none;
-    color: #42474e; /* NV-30 */
+    color: #40484b; /* NV-30 */
 }
 
 #btn-clear:hover {
-    background: #e6e8ee; /* N-92 */
+    background: #e4e9ec; /* N-92 */
 }
 
 .badge-panel {
@@ -247,20 +258,20 @@ button:hover {
 .badge {
     margin: 0 2.5% 0 0;
     padding: 0;
-    font-size: 1em; /* 16px */
+    font-size: var(--fs-0);
     line-height: 1.5;
-    color: #42474e; /* NV-30 */
+    color: #40484b; /* NV-30 */
     flex: initial;
 }
 
 .link-like {
-    color: #30628c; /* P-40 */
+    color: #02677d; /* P-40 */
     text-decoration: underline;
     cursor: pointer;
 }
 
 .link-like:hover {
-    color: #104a73; /* P-30 */
+    color: #004e5f; /* P-30 */
     text-decoration: underline;
 }
 
@@ -285,7 +296,7 @@ section {
 
 .card {
     padding: 0;
-    background: #eceef4; /* N-94 */
+    background: #eaeff1; /* N-94 */
     flex: initial;
     display: flex;
     flex-flow: row wrap;
@@ -372,108 +383,45 @@ dl {
 }
 
 dt {
+    font-size: var(--fs-0);
     line-height: 1.5;
-    color: #181c20;  /* N-10 */
+    color: #171c1f;  /* N-10 */
 }
 
 dd {
+    font-size: var(--fs-0);
     line-height: 1.5;
-    color: #181c20;  /* N-10 */
+    color: #40484b; /* NV-30 */
     margin: 0;
     padding: 0;
 }
 
 dd a {
-    color: #30628c; /* P-40 */
+    color: #02677d; /* P-40 */
     text-decoration: underline;
 }
 
 dd a:hover {
-    color: #104a73; /* P-30 */
+    color: #004e5f; /* P-30 */
     text-decoration: underline;
-}
-
-/* List font-sizes - media queries */
-@media (min-width: 300px) and (max-width: 399px) {
-    dt, dd {
-        font-size: 0.9375em; /* 15px */
-    }
-}
-
-@media (min-width: 400px) and (max-width: 499px) {
-    dt, dd {
-        font-size: 1em; /* 16px */
-    }
-}
-
-@media (min-width: 500px) and (max-width: 599px) {
-    dt, dd {
-        font-size: 1.0625em; /* 17px */
-    }
-}
-
-@media (min-width: 600px) and (max-width: 699px) {
-    dt, dd {
-        font-size: 1.125em; /* 18 px */
-    }
-}
-
-@media (min-width: 700px) and (max-width: 799px) {
-    dt, dd {
-        font-size: 1em; /* 16px */
-    }
-}
-
-@media (min-width: 800px) and (max-width: 899px) {
-    dt, dd {
-        font-size: 1.0625em; /* 17px */
-    }
-}
-
-@media (min-width: 900px) and (max-width: 999px) {
-    dt, dd {
-        font-size: 1.125em; /* 18 px */
-    }
-}
-
-@media (min-width: 1000px) and (max-width: 1099px) {
-    dt, dd {
-        font-size: 1.1875em; /* 19px */
-    }
-}
-
-@media (min-width: 1100px) and (max-width: 1199px) {
-    dt, dd {
-        font-size: 1em; /* 16px */
-    }
-}
-
-@media (min-width: 1200px) {
-    dt, dd {
-        font-size: 1.0625em; /* 17px */
-    }
 }
 
 /* Other font-sizes and colors  */
 h1 {
-    font-size: 1.125em; /* 18 px */
-    line-height: 1.5;
-    color: #0e1d2a; /* S-10 */
+    font-size: var(--fs-1);
+    line-height: 1.2;
+    color: #061e25; /* S-10 */
 }
 
 p {
-    font-size: 1em; /* 16px */
+    font-size: var(--fs-0);
     line-height: 1.5;
     font-weight: 400;
-    color: #181c20; /* N-10 */
+    color: #171c1f; /* N-10 */
 }
 
 #no-results {
-    color: #ba1a1a; /* E-10 */
-}
-
-legend, label, select, input::placeholder, input[type="text"] {
-    font-size: 1.125em; /* 18 px */
+    color: #ba1a1a; /* E-40 */
 }
 
 /* Google font-family: roboto-flex, variable font-weight 100 to 1000 */
