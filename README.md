@@ -43,5 +43,5 @@ Visit the localhost port displayed in the terminal after running `npm run dev`.
 * Helpful information on filtering from [Stackoverflow users](https://stackoverflow.com/questions/11076067/finding-matches-between-multiple-javascript-arrays).
 * Design guidance from Google's [Material Design](https://material.io/design).
 * Fonts and icons from [Google Fonts](https://fonts.google.com).
-* WACG guidance from [Firefox's Developer Tools](https://firefox-source-docs.mozilla.org/devtools-user/#).
+* Fluid typography guidance from [Utopia](https://utopia.fyi).
 * Shields from [Shields](https://shields.io).
