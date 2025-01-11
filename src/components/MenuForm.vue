@@ -9,6 +9,7 @@ function processInputs() {
     // Search term fields.
     if (store.searchTerm !== "") {
         const searchSelects = [];
+
         senators.map(function (senator) {
             const searchTermLc = store.searchTerm.toLowerCase();
             // Process input from search bar.
@@ -26,42 +27,50 @@ function processInputs() {
     }
 
     // Party radio buttons.
-    const byParty = Object.groupBy(senators, ({ party }) => party);
     if (store.party !== "all") {
+        const byParty = Object.groupBy(senators, ({ party }) => party);
         const partySelects = [];
+
         for (const item in byParty[store.party]) {
             partySelects.push(byParty[store.party][item].bioguideId);
         }
+
         store.selects.push(partySelects);
     }
 
     // Gender radio buttons.
-    const byGender = Object.groupBy(senators, ({ gender }) => gender);
     if (store.gender !== "all") {
+        const byGender = Object.groupBy(senators, ({ gender }) => gender);
         const genderSelects = [];
+
         for (const item in byGender[store.gender]) {
             genderSelects.push(byGender[store.gender][item].bioguideId);
         }
+
         store.selects.push(genderSelects);
     }
 
     // Reelection radio buttons.
-    const byReelection = Object.groupBy(senators, ({ reelection }) => reelection);
     if (store.reelection !== "all") {
+        const byReelection = Object.groupBy(senators, ({ reelection }) => reelection);
         const reelectionSelects = [];
+
         for (const item in byReelection[store.reelection]) {
             reelectionSelects.push(byReelection[store.reelection][item].bioguideId);
         }
+
         store.selects.push(reelectionSelects);
     }
 
     // State pull down menu.
-    const byStateAbbr = Object.groupBy(senators, ({ stateAbbr }) => stateAbbr);
     if (store.stateAbbr !== "all") {
+        const byStateAbbr = Object.groupBy(senators, ({ stateAbbr }) => stateAbbr);
         const stateAbbrSelects = [];
+
         for (const item in byStateAbbr[store.stateAbbr]) {
             stateAbbrSelects.push(byStateAbbr[store.stateAbbr][item].bioguideId);
         }
+
         store.selects.push(stateAbbrSelects);
     }
     // Filter arrays within selects array to find common senators.
