@@ -25,10 +25,7 @@ const upperCaseState = computed(() => {
 </script>
 
 <template>
-    <div
-        v-if="store.badges"
-        class="badge-panel"
-    >
+    <div class="badge-panel">
         <div class="badge roboto-flex six">Viewing:</div>
         <div class="badge roboto-flex four">Party: {{ store.party}}</div>
         <div class="badge roboto-flex four">Gender: {{ store.gender }}</div>
