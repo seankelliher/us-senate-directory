@@ -23,9 +23,9 @@ body {
 
 header {
     width: 90%;
-    margin-bottom: 1em;
+    margin: 0;
     padding: 0.25em 5%;
-    background: #cee6f0; /* S-90 */
+    /*background: #cee6f0;  S-90 */
     flex: initial;
     display: flex;
     flex-flow: row wrap;
@@ -39,7 +39,7 @@ header {
     content: "";
     position: absolute;
     inset: 0 calc((100vw - 100%) / -2) -2px calc((100vw - 100%) / -2);
-    background: #cee6f0; /* S-90 */
+    /*background: #cee6f0;  S-90 */
     border-bottom: 2px solid #b2cbd4; /* S-80 */
     z-index: -1;
 }
@@ -58,7 +58,7 @@ main {
 
 .overlay {
     position: absolute;
-    inset: 0;
+    inset: 0 calc((100vw - 100%) / -2) 0 calc((100vw - 100%) / -2);
     background: #f5fafd; /* N-98 */
     opacity: 0.80;
     z-index: 1;
@@ -70,12 +70,8 @@ form {
     margin: 0;
     padding: 0.5em 0;
     background: #f5fafd; /* N-98 */
-    border-top: 2px solid #b2cbd4; /* S-80 */
-    border-right: 2px solid #bfc8cc; /* NV-80 */
-    border-bottom: 2px solid #bfc8cc; /* NV-80 */
-    border-left: 2px solid #bfc8cc; /* NV-80 */
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border: 2px solid #bfc8cc; /* NV-80 */
+    border-radius: 6px;
     flex: initial;
     display: flex;
     flex-flow: row wrap;
@@ -83,7 +79,7 @@ form {
     align-items: flex-start;
     z-index: 2;
     position: absolute;
-    top: -1em;
+    top: 0;
     right: 5%;
 }
 
@@ -138,6 +134,17 @@ form {
 }
 
 .menu-icon:hover {
+    cursor: pointer;
+}
+
+.link-icon {
+    width: 24px;
+    margin: 0;
+    padding: 0;
+    flex: initial;
+}
+
+.link-icon:hover {
     cursor: pointer;
 }
 
@@ -247,12 +254,24 @@ button:hover {
 .badge-panel {
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 1em 0;
+    border-bottom: 2px solid #b2cbd4; /* S-80 */
     flex: initial;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: flex-start;
+    position: relative;
+}
+
+/* inset is shorthand property for top, right, bottom, left */
+.badge-panel::before {
+    content: "";
+    position: absolute;
+    inset: 0 calc((100vw - 100%) / -2) -2px calc((100vw - 100%) / -2);
+    /*background: #cee6f0;  S-90 */
+    border-bottom: 2px solid #b2cbd4; /* S-80 */
+    z-index: -1;
 }
 
 .badge {
@@ -443,13 +462,6 @@ p {
     "YTUC" 712;
 }
 
-/* Google font-family: roboto-condensed, variable font-weight 100 to 900 */
-.roboto-condensed {
-  font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-
 /* Font-weights */
 .four {
     font-weight:  400;
@@ -463,10 +475,12 @@ p {
     font-weight:  600;
 }
 
-.seven {
-    font-weight:  700;
+/* Animation - fade Senator cards */
+.cards-enter-active,
+.cards-leave-active {
+    transition: all 0.5s ease-in;
 }
-
-.eight {
-    font-weight:  800;
+.cards-enter-from,
+.cards-leave-to {
+    opacity: 0;
 }
