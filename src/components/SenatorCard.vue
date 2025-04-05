@@ -11,10 +11,11 @@ import { store } from "../composables/store.js";
             class="roboto-flex four">
                 No matching results.
         </p>
+        <TransitionGroup name="cards">
         <template v-for="senator in senators" :key="senator.bioguideId">
             <div v-if="store.commons.includes(senator.bioguideId)" class="card rounded-card">
                 <dl>
-                    <dt class="roboto-condensed seven">{{ senator.firstName }} {{ senator.lastName }}</dt>
+                    <dt class="roboto-flex six">{{ senator.firstName }} {{ senator.lastName }}</dt>
                     <dd class="roboto-flex four">{{ senator.stateName }} ({{ senator.party.substring(0,1) }})</dd>
                     <dd class="roboto-flex four">Since {{ senator.assumedOffice }}</dd>
                     <dd class="roboto-flex four"><a :href="`https://www.${senator.website}`" target="_blank">{{ senator.website }}</a></dd>
@@ -29,6 +30,7 @@ import { store } from "../composables/store.js";
                 </figure>
             </div>
         </template>
+        </TransitionGroup>
     </section>
 </template>
 

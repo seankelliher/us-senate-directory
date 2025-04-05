@@ -101,7 +101,7 @@ function checkInputs() {
 <template>
     <form v-if="store.menu" @submit.prevent="checkInputs()">
         <div class="search-box">
-            <label for="search-term" class="roboto-condensed seven">Name</label>
+            <label for="search-term" class="roboto-flex six">Name</label>
             <input
                 type="text"
                 id="search-term"
@@ -112,7 +112,7 @@ function checkInputs() {
         </div>
 
         <fieldset>
-            <legend class="roboto-condensed seven">Party</legend>
+            <legend class="roboto-flex six">Party</legend>
             <input type="radio" id="all-parties" value="all" v-model="store.party" />
             <label for="all-parties" class="roboto-flex four">All</label><br />
             <input type="radio" id="democrat" value="Democrat" v-model="store.party" />
@@ -124,7 +124,7 @@ function checkInputs() {
         </fieldset>
 
         <fieldset>
-            <legend class="roboto-condensed seven">Gender</legend>
+            <legend class="roboto-flex six">Gender</legend>
             <input type="radio" id="all-genders" value="all" v-model="store.gender" />
             <label for="all-genders" class="roboto-flex four">All</label><br />
             <input type="radio" id="male" value="male" v-model="store.gender" />
@@ -134,7 +134,7 @@ function checkInputs() {
         </fieldset>
 
         <fieldset>
-            <legend class="roboto-condensed seven">Up for re-election</legend>
+            <legend class="roboto-flex six">Up for re-election</legend>
             <input type="radio" id="all-elections" value="all" v-model="store.reelection" />
             <label for="all-elections" class="roboto-flex four">All</label><br />
             <input type="radio" id="class1" value="class1" v-model="store.reelection" />
@@ -146,7 +146,7 @@ function checkInputs() {
         </fieldset>
 
         <div class="states-box">
-            <label for="states-list" class="roboto-condensed seven">State</label>
+            <label for="states-list" class="roboto-flex six">State</label>
             <select
                 id="states-list"
                 v-model="store.stateAbbr"
