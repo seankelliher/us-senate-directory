@@ -2,7 +2,6 @@ import { reactive } from "vue";
 import { senators } from "../data/us-senators-with-stats.js";
 
 export const store = reactive({
-    badges: false,
     searchTerm: "",
     party: "all",
     gender: "all",
@@ -16,7 +15,6 @@ export const store = reactive({
         const body = document.querySelector("body");
         store.menu = true;
         body.style.overflow = "hidden";
-        store.badges = true;
     },
     hideMenu: function() {
         const body = document.querySelector("body");
