@@ -25,7 +25,6 @@ header {
     width: 90%;
     margin: 0;
     padding: 0.25em 5%;
-    /*background: #cee6f0;  S-90 */
     flex: initial;
     display: flex;
     flex-flow: row wrap;
@@ -39,7 +38,6 @@ header {
     content: "";
     position: absolute;
     inset: 0 calc((100vw - 100%) / -2) -2px calc((100vw - 100%) / -2);
-    /*background: #cee6f0;  S-90 */
     border-bottom: 2px solid #b2cbd4; /* S-80 */
     z-index: -1;
 }
@@ -70,7 +68,7 @@ form {
     margin: 0;
     padding: 0.5em 0;
     background: #f5fafd; /* N-98 */
-    border: 2px solid #bfc8cc; /* NV-80 */
+    border: 2px solid #b2cbd4; /* S-80 */
     border-radius: 6px;
     flex: initial;
     display: flex;
