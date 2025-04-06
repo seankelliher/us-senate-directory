@@ -150,7 +150,7 @@ form {
     width: 80%;
     margin: 0.5em 0;
     padding: 0 10% 1em; /* Longhand 0 20% 1em 20%; */
-    border-bottom: 2px solid #bfc8cc; /* NV-80 */
+    border-bottom: 2px solid #b2cbd4; /* S-80 */
     flex: initial;
 }
 
@@ -160,7 +160,7 @@ fieldset {
     padding: 0.5em 10%;
     border-top: none;
     border-right: none;
-    border-bottom: 2px solid #bfc8cc; /* NV-80 */
+    border-bottom: 2px solid #b2cbd4; /* S-80 */
     border-left: none;
     flex: initial;
 }
@@ -426,7 +426,7 @@ dd a:hover {
 h1 {
     font-size: var(--fs-1);
     line-height: 1.2;
-    color: #061e25; /* S-10 */
+    color: #171c1f; /* N-10 */
 }
 
 p {
