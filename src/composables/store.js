@@ -43,6 +43,7 @@ export const store = reactive({
         store.reelection = "all";
         store.stateAbbr = "all";
         store.noResults = false;
+        store.showAll();
         store.showMenu();
     },
     reset: function() {
