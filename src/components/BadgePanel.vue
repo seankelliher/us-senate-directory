@@ -26,19 +26,19 @@ const upperCaseState = computed(() => {
 
 <template>
     <div class="badge-panel">
-        <div class="badge roboto-flex six">Viewing:</div>
-        <div class="badge roboto-flex four">Party: {{ store.party}}</div>
-        <div class="badge roboto-flex four">Gender: {{ store.gender }}</div>
-        <div class="badge roboto-flex four">Re-election: {{ convertClass }}</div>
-        <div class="badge roboto-flex four">State: {{ upperCaseState }}</div>
+        <div class="badge noto-sans-eight">Viewing:</div>
+        <div class="badge noto-sans-five">Party: {{ store.party}}</div>
+        <div class="badge noto-sans-five">Gender: {{ store.gender }}</div>
+        <div class="badge noto-sans-five">Re-election: {{ convertClass }}</div>
+        <div class="badge noto-sans-five">State: {{ upperCaseState }}</div>
         <div
             v-if="store.searchTerm !== ''"
-            class="badge roboto-flex four"
+            class="badge noto-sans-five"
         >
             Search: {{ store.searchTerm }}
         </div>
         <div
-            class="badge roboto-flex four link-like"
+            class="badge noto-sans-five link-like"
             tabindex="0"
             role="button"
             @click="store.reset()"

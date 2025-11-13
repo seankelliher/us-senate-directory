@@ -440,36 +440,32 @@ p {
     color: #ba1a1a; /* E-40 */
 }
 
-/* Google font-family: roboto-flex, variable font-weight 100 to 1000 */
-.roboto-flex {
-  font-family: "Roboto Flex", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "wdth" 100,
-    "GRAD" 0,
-    "XOPQ" 96,
-    "XTRA" 468,
-    "YOPQ" 79,
-    "YTAS" 750,
-    "YTDE" -203,
-    "YTFI" 738,
-    "YTLC" 514,
-    "YTUC" 712;
+/* Fonts from Google */
+.noto-sans-four {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
-/* Font-weights */
-.four {
-    font-weight:  400;
+.noto-sans-five {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
-.five {
-    font-weight:  500;
-}
-
-.six {
-    font-weight:  600;
+.noto-sans-eight {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* Animation - fade Senator cards */

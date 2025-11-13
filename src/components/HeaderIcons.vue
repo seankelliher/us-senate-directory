@@ -11,14 +11,14 @@ import { store } from "../composables/store.js";
 
 <template>
     <header>
-        <!-- US Senate seal  
+        <!-- US Senate seal -->
         <figure class="seal-box">
             <img src="/images/us-senate-logo.svg" alt="decorative seal for the United States Senate">
             <figcaption hidden>seal, United States Senate</figcaption>
-        </figure>-->
+        </figure>
 
         <!-- Headline -->
-        <h1 class="roboto-flex five">{{ headline }}</h1>
+        <h1 class="noto-sans-eight">{{ headline }}</h1>
 
         <!-- Menu "hamburger" icon -->
         <figure

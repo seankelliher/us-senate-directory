@@ -8,17 +8,17 @@ import { store } from "../composables/store.js";
         <p
             v-if="store.noResults"
             id="no-results"
-            class="roboto-flex four">
+            class="noto-sans-four">
                 No matching results.
         </p>
         <TransitionGroup name="cards">
         <template v-for="senator in senators" :key="senator.bioguideId">
             <div v-if="store.commons.includes(senator.bioguideId)" class="card rounded-card">
                 <dl>
-                    <dt class="roboto-flex six">{{ senator.firstName }} {{ senator.lastName }}</dt>
-                    <dd class="roboto-flex four">{{ senator.stateName }} ({{ senator.party.substring(0,1) }})</dd>
-                    <dd class="roboto-flex four">Since {{ senator.assumedOffice }}</dd>
-                    <dd class="roboto-flex four"><a :href="`https://www.${senator.website}`" target="_blank">{{ senator.website }}</a></dd>
+                    <dt class="noto-sans-eight">{{ senator.firstName }} {{ senator.lastName }}</dt>
+                    <dd class="noto-sans-four">{{ senator.stateName }} ({{ senator.party.substring(0,1) }})</dd>
+                    <dd class="noto-sans-four">Since {{ senator.assumedOffice }}</dd>
+                    <dd class="noto-sans-four"><a :href="`https://www.${senator.website}`" target="_blank">{{ senator.website }}</a></dd>
                 </dl>
                 <figure class="portrait">
                     <img

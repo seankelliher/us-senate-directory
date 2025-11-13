@@ -101,52 +101,52 @@ function checkInputs() {
 <template>
     <form v-if="store.menu" @submit.prevent="checkInputs()">
         <div class="search-box">
-            <label for="search-term" class="roboto-flex six">Name</label>
+            <label for="search-term" class="noto-sans-eight">Name</label>
             <input
                 type="text"
                 id="search-term"
-                class="roboto-flex four"
+                class="noto-sans-four"
                 v-model="store.searchTerm"
                 placeholder="Susan Collins"
             />
         </div>
 
         <fieldset>
-            <legend class="roboto-flex six">Party</legend>
+            <legend class="noto-sans-eight">Party</legend>
             <input type="radio" id="all-parties" value="all" v-model="store.party" />
-            <label for="all-parties" class="roboto-flex four">All</label><br />
+            <label for="all-parties" class="noto-sans-four">All</label><br />
             <input type="radio" id="democrat" value="Democrat" v-model="store.party" />
-            <label for="democrat" class="roboto-flex four">Democrat</label><br />
+            <label for="democrat" class="noto-sans-four">Democrat</label><br />
             <input type="radio" id="republican" value="Republican" v-model="store.party" />
-            <label for="republican" class="roboto-flex four">Republican</label><br />
+            <label for="republican" class="noto-sans-four">Republican</label><br />
             <input type="radio" id="independent" value="Independent" v-model="store.party" />
-            <label for="independent" class="roboto-flex four">Independent</label>
+            <label for="independent" class="noto-sans-four">Independent</label>
         </fieldset>
 
         <fieldset>
-            <legend class="roboto-flex six">Gender</legend>
+            <legend class="noto-sans-eight">Gender</legend>
             <input type="radio" id="all-genders" value="all" v-model="store.gender" />
-            <label for="all-genders" class="roboto-flex four">All</label><br />
+            <label for="all-genders" class="noto-sans-four">All</label><br />
             <input type="radio" id="male" value="male" v-model="store.gender" />
-            <label for="male" class="roboto-flex four">Male</label><br />
+            <label for="male" class="noto-sans-four">Male</label><br />
             <input type="radio" id="female" value="female" v-model="store.gender" />
-            <label for="female" class="roboto-flex four">Female</label>
+            <label for="female" class="noto-sans-four">Female</label>
         </fieldset>
 
         <fieldset>
-            <legend class="roboto-flex six">Up for re-election</legend>
+            <legend class="noto-sans-eight">Up for re-election</legend>
             <input type="radio" id="all-elections" value="all" v-model="store.reelection" />
-            <label for="all-elections" class="roboto-flex four">All</label><br />
+            <label for="all-elections" class="noto-sans-four">All</label><br />
             <input type="radio" id="class1" value="class1" v-model="store.reelection" />
-            <label for="class1" class="roboto-flex four">November 2024</label><br />
+            <label for="class1" class="noto-sans-four">November 2024</label><br />
             <input type="radio" id="class2" value="class2" v-model="store.reelection" />
-            <label for="class2" class="roboto-flex four">November 2026</label><br />
+            <label for="class2" class="noto-sans-four">November 2026</label><br />
             <input type="radio" id="class3" value="class3" v-model="store.reelection" />
-            <label for="class3" class="roboto-flex four">November 2028</label>
+            <label for="class3" class="noto-sans-four">November 2028</label>
         </fieldset>
 
         <div class="states-box">
-            <label for="states-list" class="roboto-flex six">State</label>
+            <label for="states-list" class="noto-sans-eight">State</label>
             <select
                 id="states-list"
                 v-model="store.stateAbbr"
@@ -208,8 +208,8 @@ function checkInputs() {
 
         <div class="btn-box">
             <!-- @click.prevent keeps menu open when user clears inputs -->
-            <button id="btn-clear" class="roboto-flex four" @click.prevent="store.clearAll()">Clear</button>
-            <button id="btn-submit" class="roboto-flex four" type="submit">Submit</button>   
+            <button id="btn-clear" class="noto-sans-four" @click.prevent="store.clearAll()">Clear</button>
+            <button id="btn-submit" class="noto-sans-four" type="submit">Submit</button> 
         </div>
     </form>
 </template>
