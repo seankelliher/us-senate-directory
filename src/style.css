@@ -1,7 +1,8 @@
-/* @link https://utopia.fyi/type/calculator?c=320,15,1.125,1280,17,1.125,1,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+/* @link https://utopia.fyi/type/calculator?c=320,15,1.125,1280,17,1.125,2,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 :root {
-    --fs-0: clamp(0.9375rem, 0.8958rem + 0.2083vw, 1.0625rem);
-    --fs-1: clamp(1.0547rem, 1.0078rem + 0.2344vw, 1.1953rem);
+  --fs0: clamp(0.9375rem, 0.8958rem + 0.2083vw, 1.0625rem);
+  --fs1: clamp(1.0547rem, 1.0078rem + 0.2344vw, 1.1953rem);
+  --fs2: clamp(1.1865rem, 1.1338rem + 0.2637vw, 1.3447rem);
 }
 
 /* Stylesheet uses Level 3 Media Queries. Level 4 coverage still spotty. */
@@ -22,30 +23,20 @@ body {
 }
 
 header {
-    width: 90%;
+    width: 95%;
     margin: 0;
-    padding: 0.25em 5%;
+    padding: 0.5em 2.5%;
     flex: initial;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between; /* main axis */
     align-items: center; /* cross axis */
-    position: relative
-}
-
-/* inset is shorthand property for top, right, bottom, left */
- header::before {
-    content: "";
-    position: absolute;
-    inset: 0 calc((100vw - 100%) / -2) -2px;
-    border-bottom: 2px solid #b2cbd4; /* S-80 */
-    z-index: -1;
 }
 
 main {
-    width: 90%;
+    width: 95%;
     margin: 0;
-    padding: 0 5%;
+    padding: 0 2.5%;
     flex: initial;
     display: flex;
     flex-flow: row wrap;
@@ -78,7 +69,7 @@ form {
     z-index: 2;
     position: absolute;
     top: 0;
-    right: 5%;
+    right: 2.5%;
 }
 
 @media (min-width: 300px) and (max-width: 399px) {
@@ -112,7 +103,13 @@ form {
     flex: initial;
 }
 
-@media (min-width: 320px) and (max-width: 599px) {
+@media (min-width: 300px) and (max-width: 359px) {
+    .seal-box {
+        width: 32px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 599px) {
     .seal-box {
         width: 48px;
     }
@@ -166,13 +163,13 @@ fieldset {
 }
 
 legend {
-    font-size: var(--fs-0);
+    font-size: var(--fs0);
     line-height: 1.5;
     color: #171c1f; /* N-10 */
 }
 
 label {
-    font-size: var(--fs-0);
+    font-size: var(--fs0);
     line-height: 1.5;
     color: #171c1f; /* N-10 */
 }
@@ -185,19 +182,19 @@ input[type="text"] {
     width: 100%;
     margin-top: 0.5em;
     border: 1px solid #c2c7cf; /* NV-80 */
-    font-size: var(--fs-1);
+    font-size: var(--fs1);
     line-height: 1.5;
     color: #171c1f; /* N-10 */
 }
 
 input::placeholder {
-    font-size: var(--fs-0);
+    font-size: var(--fs0);
     line-height: 1.5;
     color: #70787c; /* NV-50 */
 }
 
 select {
-    font-size: var(--fs-0);
+    font-size: var(--fs0);
     width: 70%;
     margin-top: 0.5em;
     margin-right: 30%;
@@ -219,7 +216,7 @@ select {
 button {
     width: 5em;
     border-radius: 12px;
-    font-size: var(--fs-0);
+    font-size: var(--fs0);
     line-height: 1.5;
     font-weight: 400;
 }
@@ -253,11 +250,10 @@ button:hover {
     width: 100%;
     margin: 0;
     padding: 1em 0;
-    border-bottom: 2px solid #b2cbd4; /* S-80 */
     flex: initial;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
     position: relative;
 }
@@ -266,15 +262,18 @@ button:hover {
 .badge-panel::before {
     content: "";
     position: absolute;
-    inset: 0 calc((100vw - 100%) / -2) -2px;
-    border-bottom: 2px solid #b2cbd4; /* S-80 */
+    inset: 1px calc((100vw - 100%) / -2) -1px;
+    border-top: 1px solid #b2cbd4; /* S-80 */
+    border-bottom: 1px solid #b2cbd4; /* S-80 */
     z-index: -1;
 }
 
 .badge {
-    margin: 0 2.5% 0 0;
-    padding: 0;
-    font-size: var(--fs-0);
+    margin: 0;
+    padding: 0 0.5em;
+    background: #eaf2f6; /* NV-95 */
+    border-radius: 6px;
+    font-size: var(--fs0);
     line-height: 1.5;
     color: #40484b; /* NV-30 */
     flex: initial;
@@ -312,7 +311,7 @@ section {
 
 .card {
     padding: 0;
-    background: #eaeff1; /* N-94 */
+    background: #eaf2f6; /* NV-95 */
     flex: initial;
     display: flex;
     flex-flow: row wrap;
@@ -399,13 +398,13 @@ dl {
 }
 
 dt {
-    font-size: var(--fs-0);
+    font-size: var(--fs0);
     line-height: 1.5;
     color: #171c1f;  /* N-10 */
 }
 
 dd {
-    font-size: var(--fs-0);
+    font-size: var(--fs0);
     line-height: 1.5;
     color: #40484b; /* NV-30 */
     margin: 0;
@@ -424,13 +423,13 @@ dd a:hover {
 
 /* Other font-sizes and colors  */
 h1 {
-    font-size: var(--fs-1);
+    font-size: var(--fs2);
     line-height: 1.2;
     color: #171c1f; /* N-10 */
 }
 
 p {
-    font-size: var(--fs-0);
+    font-size: var(--fs0);
     line-height: 1.5;
     font-weight: 400;
     color: #171c1f; /* N-10 */
