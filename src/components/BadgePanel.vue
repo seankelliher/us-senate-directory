@@ -26,16 +26,28 @@ const upperCaseState = computed(() => {
 
 <template>
     <div class="badge-panel">
-        <div class="badge noto-sans-eight">Viewing:</div>
-        <div class="badge noto-sans-five">Party: {{ store.party}}</div>
-        <div class="badge noto-sans-five">Gender: {{ store.gender }}</div>
-        <div class="badge noto-sans-five">Re-election: {{ convertClass }}</div>
-        <div class="badge noto-sans-five">State: {{ upperCaseState }}</div>
+        <div class="badge">
+            <span class="noto-sans-eight">Party: </span>
+            <span class="noto-sans-five">{{ store.party}}</span>
+        </div>
+        <div class="badge">
+            <span class="noto-sans-eight">Gender: </span>
+            <span class="noto-sans-five">{{ store.gender }}</span>
+        </div>
+        <div class="badge">
+            <span class="noto-sans-eight">Re-election: </span>
+            <span class="noto-sans-five">{{ convertClass }}</span>
+        </div>
+        <div class="badge">
+            <span class="noto-sans-eight">State: </span>
+            <span class="noto-sans-five">{{ upperCaseState }}</span>
+        </div>
         <div
             v-if="store.searchTerm !== ''"
-            class="badge noto-sans-five"
+            class="badge"
         >
-            Search: {{ store.searchTerm }}
+            <span class="noto-sans-eight">Search: </span>
+            <span class="noto-sans-five">{{ store.searchTerm }}</span>
         </div>
         <div
             class="badge noto-sans-five link-like"
